@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>বই তালিকা</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>বইয়ের তালিকা</h2>
+  <table id="bookTable" border="1">
+    <thead>
+      <tr>
+        <th>Serial</th>
+        <th>Book Name</th>
+        <th>Issue Date</th>
+        <th>Return Date</th>
+      </tr>
+    </thead>
+    <tbody id="bookBody"></tbody>
+  </table>
+  <button onclick="enableEdit()">Edit</button>
+  <button onclick="saveTable()">Save</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #000;
+}
+
+input[type="text"], input[type="date"] {
+  width: 95%;
+}
