@@ -1,0 +1,135 @@
+{
+  "app_name": "Durjoy TV",
+  "version": "1.0",
+  "updated": "2026-06-21",
+  "channels": [
+    {
+      "name": "Zee Bangla",
+      "category": "GEC",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/ZeeBangla/index.m3u8" },
+        { "name": "S2", "url": "http://103.89.248.130:8082/zee-bangla/index.m3u8" },
+        { "name": "S3", "url": "https://server.itcnbd.live/stream/zee_bangla.m3u8" }
+      ]
+    },
+    {
+      "name": "Star Jalsha",
+      "category": "GEC",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/starjolsha/index.m3u8" },
+        { "name": "S2", "url": "http://103.89.248.130:8082/Star_jalsha/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Sony Aath",
+      "category": "GEC",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/SonyAath/index.m3u8" },
+        { "name": "S2", "url": "http://172.21.20.222:8080/sony-aath/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Sony Max",
+      "category": "Movies",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/SonyMAX/index.m3u8" },
+        { "name": "S2", "url": "http://103.89.248.130:8082/SONY-MAX/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Zee Cinema HD",
+      "category": "Movies",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/ZeeCinemaHD/index.m3u8" },
+        { "name": "S2", "url": "http://103.89.248.130:8082/Zee-Cinema-HD/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Star Gold",
+      "category": "Movies",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/Star-Gold/index.m3u8" }
+      ]
+    },
+    {
+      "name": "T Sports HD",
+      "category": "Sports",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/TSportsHD/index.m3u8" },
+        { "name": "S2", "url": "http://103.89.248.130:8082/T-SPORTS/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Star Sports 1 HD",
+      "category": "Sports",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/StarSports1/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Sony Ten 1",
+      "category": "Sports",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/SonyTenSports1/index.m3u8" }
+      ]
+    },
+    {
+      "name": "NTV",
+      "category": "News",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/NTVLive1/index.m3u8" },
+        { "name": "S2", "url": "http://172.21.20.222:8080/ntv/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Somoy TV",
+      "category": "News",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/somyyt/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Jamuna TV",
+      "category": "News",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/JAMUNATV/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Cartoon Network",
+      "category": "Kids",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/CartoonNetwork/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Nick",
+      "category": "Kids",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/NICK/index.m3u8" }
+      ]
+    },
+    {
+      "name": "Pogo",
+      "category": "Kids",
+      "logo": "",
+      "sources": [
+        { "name": "S1", "url": "http://172.20.3.1:3255/POGO/index.m3u8" }
+      ]
+    }
+  ]
+}
