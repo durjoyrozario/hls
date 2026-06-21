@@ -8,8 +8,8 @@
       "category": "GEC",
       "logo": "",
       "sources": [
-        { "name": "S1", "url": "http://172.20.3.1:3255/ZeeBangla/index.m3u8" },
-        { "name": "S2", "url": "http://103.89.248.130:8082/zee-bangla/index.m3u8" },
+        { "name": "S1", "url": "https://server.itcnbd.live/stream/zee_bangla.m3u8" },
+        { "name": "S2", "url": "https://server.itcnbd.live/stream/zee_bangla.m3u8" },
         { "name": "S3", "url": "https://server.itcnbd.live/stream/zee_bangla.m3u8" }
       ]
     },
@@ -96,7 +96,7 @@
       "category": "News",
       "logo": "",
       "sources": [
-        { "name": "S1", "url": "http://172.20.3.1:3255/somyyt/index.m3u8" }
+        { "name": "S1", "url": "http://103.179.25.147:8181/FiFaaaaaah/tracks-v1a1/mono.m3u8" }
       ]
     },
     {
