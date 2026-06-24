@@ -1,0 +1,12 @@
+[
+  {
+    "embedUrl": "https://www.youtube.com/embed/BBOMyUb9pNY?si=nwgy827sIL0VVyX-",
+    "title": "ভিডিও টাইটেল এখানে লিখো",
+    "channel": "চ্যানেল নাম"
+  },
+  {
+    "embedUrl": "https://www.youtube.com/embed/VIDEO_ID_2",
+    "title": "দ্বিতীয় ভিডিওর টাইটেল",
+    "channel": "চ্যানেল নাম"
+  }
+]
