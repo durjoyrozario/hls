@@ -104,7 +104,7 @@
     {
       "name": "Colors Bangla",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cb.png",
       "sources": [
         {
           "name": "S1",
@@ -135,7 +135,7 @@
     {
       "name": "Sun Bangla",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sb.png",
       "sources": [
         {
           "name": "S1",
@@ -158,7 +158,7 @@
     {
       "name": "Sony Aath",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sa.png",
       "sources": [
         {
           "name": "S1",
@@ -201,7 +201,7 @@
     {
       "name": "Enter10 Bangla",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/eb.png",
       "sources": [
         {
           "name": "S1",
@@ -236,7 +236,7 @@
     {
       "name": "NTV",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ntv.png",
       "sources": [
         {
           "name": "S1",
@@ -271,7 +271,7 @@
     {
       "name": "Somoy TV",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/somoy.png",
       "sources": [
         {
           "name": "S1",
@@ -318,7 +318,7 @@
     {
       "name": "Channel i",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/channeli.png",
       "sources": [
         {
           "name": "S1",
@@ -365,7 +365,7 @@
     {
       "name": "Jamuna TV",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jamuna.png",
       "sources": [
         {
           "name": "S1",
