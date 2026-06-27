@@ -2751,7 +2751,7 @@
     {
       "name": "Unite8 HD",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/u8.png",
       "sources": [
         {
           "name": "Zee Cafe",
