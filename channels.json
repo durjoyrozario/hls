@@ -65,7 +65,7 @@
     {
       "name": "Star Jalsha",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sj.png",
       "sources": [
         {
           "name": "S1",
