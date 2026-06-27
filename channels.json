@@ -408,7 +408,7 @@
     {
       "name": "Independent TV",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/independent.png",
       "sources": [
         {
           "name": "S1",
@@ -451,7 +451,7 @@
     {
       "name": "News 24",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/news24.png",
       "sources": [
         {
           "name": "S1",
@@ -478,7 +478,7 @@
     {
       "name": "Channel 24",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/24.png",
       "sources": [
         {
           "name": "S1",
@@ -509,7 +509,7 @@
     {
       "name": "Deepto TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/deepto.png",
       "sources": [
         {
           "name": "S1",
@@ -540,7 +540,7 @@
     {
       "name": "Ekhon TV",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ekhon.png",
       "sources": [
         {
           "name": "S1",
@@ -567,7 +567,7 @@
     {
       "name": "Desh TV",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/desh.png",
       "sources": [
         {
           "name": "S1",
@@ -590,7 +590,7 @@
     {
       "name": "Nagorik TV",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/nagorik.png",
       "sources": [
         {
           "name": "S1",
@@ -617,7 +617,7 @@
     {
       "name": "Bangla Vision",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bvision.png",
       "sources": [
         {
           "name": "S1",
@@ -644,7 +644,7 @@
     {
       "name": "ATN Bangla",
       "category": "GEC",
-      "logo": "",
+      "logo": "atnbangla",
       "sources": [
         {
           "name": "S1",
@@ -675,7 +675,7 @@
     {
       "name": "Channel 9",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/9.png",
       "sources": [
         {
           "name": "S1",
@@ -702,7 +702,7 @@
     {
       "name": "Ekattor TV",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/71.png",
       "sources": [
         {
           "name": "S1",
@@ -737,7 +737,7 @@
     {
       "name": "Ekushey TV",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/etv.png",
       "sources": [
         {
           "name": "S1",
@@ -760,7 +760,7 @@
     {
       "name": "Boishakhi TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/boi.png",
       "sources": [
         {
           "name": "S1",
@@ -775,7 +775,7 @@
     {
       "name": "DBC News",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dbc.png",
       "sources": [
         {
           "name": "S1",
@@ -802,7 +802,7 @@
     {
       "name": "ATN News",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/atnnews.png",
       "sources": [
         {
           "name": "S1",
@@ -837,7 +837,7 @@
     {
       "name": "My TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/my.png",
       "sources": [
         {
           "name": "S1",
@@ -856,7 +856,7 @@
     {
       "name": "Asian TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/asian.png",
       "sources": [
         {
           "name": "S1",
@@ -871,7 +871,7 @@
     {
       "name": "SA TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sa.png",
       "sources": [
         {
           "name": "S1",
@@ -894,7 +894,7 @@
     {
       "name": "Maasranga TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/mach.png",
       "sources": [
         {
           "name": "S1",
@@ -921,7 +921,7 @@
     {
       "name": "RTV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/rtv.png",
       "sources": [
         {
           "name": "S1",
@@ -940,7 +940,7 @@
     {
       "name": "BTV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/btv.png",
       "sources": [
         {
           "name": "S1",
@@ -963,7 +963,7 @@
     {
       "name": "ETV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/etv.png",
       "sources": [
         {
           "name": "S1",
@@ -974,7 +974,7 @@
     {
       "name": "Global TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/global.png",
       "sources": [
         {
           "name": "S1",
@@ -993,7 +993,7 @@
     {
       "name": "Sony TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/set.png",
       "sources": [
         {
           "name": "S1",
@@ -1036,7 +1036,7 @@
     {
       "name": "Star Plus",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/plus.png",
       "sources": [
         {
           "name": "S1",
@@ -1067,7 +1067,7 @@
     {
       "name": "Zee TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ztv.png",
       "sources": [
         {
           "name": "S1",
@@ -1102,7 +1102,7 @@
     {
       "name": "Colors HD",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/colors.png",
       "sources": [
         {
           "name": "S1",
@@ -1133,7 +1133,7 @@
     {
       "name": "Star Bharat",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bharat.png",
       "sources": [
         {
           "name": "S1",
@@ -1156,7 +1156,7 @@
     {
       "name": "&TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&.png",
       "sources": [
         {
           "name": "S1",
@@ -1179,7 +1179,7 @@
     {
       "name": "Sony Max",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/max.png",
       "sources": [
         {
           "name": "S1",
@@ -1210,7 +1210,7 @@
     {
       "name": "Sony Sab",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sab.png",
       "sources": [
         {
           "name": "S1",
@@ -1229,7 +1229,7 @@
     {
       "name": "Zee Cinema HD",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zc.png",
       "sources": [
         {
           "name": "S1",
@@ -1264,7 +1264,7 @@
     {
       "name": "Zee Action",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zeeaction.png",
       "sources": [
         {
           "name": "S1",
@@ -1283,7 +1283,7 @@
     {
       "name": "Star Gold",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/stargold.png",
       "sources": [
         {
           "name": "S1",
@@ -1314,7 +1314,7 @@
     {
       "name": "Star Movies",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starmovies.png",
       "sources": [
         {
           "name": "S1",
@@ -1341,7 +1341,7 @@
     {
       "name": "&Pictures HD",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&picture.png",
       "sources": [
         {
           "name": "S1",
@@ -1378,9 +1378,9 @@
       ]
     },
     {
-      "name": "Zee Bangla Cinema",
+      "name": "Zee BanglaSonar",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zbs.png",
       "sources": [
         {
           "name": "S1",
@@ -1415,7 +1415,7 @@
     {
       "name": "Jalsha Movies HD",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jm.png",
       "sources": [
         {
           "name": "S1",
@@ -1442,7 +1442,7 @@
     {
       "name": "Colors Bangla Cinema",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cbc.png",
       "sources": [
         {
           "name": "S1",
@@ -1461,7 +1461,7 @@
     {
       "name": "Colors Cineplex HD",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cineplex.png",
       "sources": [
         {
           "name": "S1",
@@ -1488,7 +1488,7 @@
     {
       "name": "Sony Pix HD",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/pix.png",
       "sources": [
         {
           "name": "S1",
@@ -1519,7 +1519,7 @@
     {
       "name": "HBO",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/hbo.png",
       "sources": [
         {
           "name": "S1",
@@ -1538,7 +1538,7 @@
     {
       "name": "AXN HD",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/axn.png",
       "sources": [
         {
           "name": "S1",
@@ -1561,7 +1561,7 @@
     {
       "name": "B4U TV",
       "category": "Movies",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/b4u.png",
       "sources": [
         {
           "name": "S1",
@@ -1580,7 +1580,7 @@
     {
       "name": "Discovery",
       "category": "Documentary",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/discovery.png",
       "sources": [
         {
           "name": "S1",
@@ -1619,7 +1619,7 @@
     {
       "name": "Nat Geo HD",
       "category": "Documentary",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/natgeo.png",
       "sources": [
         {
           "name": "S1",
@@ -1650,7 +1650,7 @@
     {
       "name": "Nat Geo Wild",
       "category": "Documentary",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wild.png",
       "sources": [
         {
           "name": "S1",
@@ -1673,7 +1673,7 @@
     {
       "name": "Animal Planet HD",
       "category": "Documentary",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/animal.png",
       "sources": [
         {
           "name": "S1",
@@ -1716,7 +1716,7 @@
     {
       "name": "BBC Earth HD",
       "category": "Documentary",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bbcearth.png",
       "sources": [
         {
           "name": "S1",
@@ -1747,7 +1747,7 @@
     {
       "name": "TLC HD",
       "category": "Documentary",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tlc.png",
       "sources": [
         {
           "name": "S1",
@@ -1774,7 +1774,7 @@
     {
       "name": "Nick",
       "category": "Kids",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/nick.png",
       "sources": [
         {
           "name": "S1",
@@ -1797,7 +1797,7 @@
     {
       "name": "Cartoon Network",
       "category": "Kids",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cn.png",
       "sources": [
         {
           "name": "S1",
@@ -1836,7 +1836,7 @@
     {
       "name": "Pogo",
       "category": "Kids",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/pogo.png",
       "sources": [
         {
           "name": "S1",
@@ -1867,7 +1867,7 @@
     {
       "name": "Discovery Kids",
       "category": "Kids",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dkids.png",
       "sources": [
         {
           "name": "S1",
@@ -1894,7 +1894,7 @@
     {
       "name": "Sony Yay",
       "category": "Kids",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/yay.png",
       "sources": [
         {
           "name": "S1",
@@ -1917,7 +1917,7 @@
     {
       "name": "Motu Patlu",
       "category": "Kids",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/motu.png",
       "sources": [
         {
           "name": "S1",
@@ -1928,7 +1928,7 @@
     {
       "name": "Gopal Bhar",
       "category": "Kids",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gopal.png",
       "sources": [
         {
           "name": "S1",
@@ -1939,7 +1939,7 @@
     {
       "name": "9XM",
       "category": "Music",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/9xm.png",
       "sources": [
         {
           "name": "S1",
@@ -1970,7 +1970,7 @@
     {
       "name": "Sangeet Bangla",
       "category": "Music",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sangeet.png",
       "sources": [
         {
           "name": "S1",
@@ -1997,7 +1997,7 @@
     {
       "name": "Gaan Bangla",
       "category": "Music",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gb.png",
       "sources": [
         {
           "name": "S1",
@@ -2012,7 +2012,7 @@
     {
       "name": "B4U Music",
       "category": "Music",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/b4umusic.png",
       "sources": [
         {
           "name": "S1",
@@ -2031,7 +2031,7 @@
     {
       "name": "Al Jazeera",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/al.png",
       "sources": [
         {
           "name": "S1",
@@ -2062,7 +2062,7 @@
     {
       "name": "CNN",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cnn.png",
       "sources": [
         {
           "name": "S1",
@@ -2085,7 +2085,7 @@
     {
       "name": "BBC World",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bbc.png",
       "sources": [
         {
           "name": "S1",
@@ -2112,7 +2112,7 @@
     {
       "name": "DW News HD",
       "category": "News",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dw.png",
       "sources": [
         {
           "name": "S1",
@@ -2127,7 +2127,7 @@
     {
       "name": "Hum TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/humtv.png",
       "sources": [
         {
           "name": "S1",
@@ -2203,7 +2203,7 @@
     {
       "name": "T Sports HD",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tsports.png",
       "sources": [
         {
           "name": "S1",
@@ -2242,7 +2242,7 @@
     {
       "name": "Gazi TV",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gtv.png",
       "sources": [
         {
           "name": "S1",
@@ -2281,7 +2281,7 @@
     {
       "name": "Star Sports 1 HD",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starsports.png",
       "sources": [
         {
           "name": "S1",
@@ -2316,7 +2316,7 @@
     {
       "name": "Star Sports 2",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starsports.png",
       "sources": [
         {
           "name": "S1",
@@ -2343,7 +2343,7 @@
     {
       "name": "Sony Ten 1",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
       "sources": [
         {
           "name": "S1",
@@ -2378,7 +2378,7 @@
     {
       "name": "Sony Ten 2",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
       "sources": [
         {
           "name": "S1",
@@ -2409,7 +2409,7 @@
     {
       "name": "Sony Ten 3",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
       "sources": [
         {
           "name": "S1",
@@ -2436,7 +2436,7 @@
     {
       "name": "PTV Sports",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ptv.png",
       "sources": [
         {
           "name": "S1",
@@ -2471,7 +2471,7 @@
     {
       "name": "Bein Sports",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bein.png",
       "sources": [
         {
           "name": "S1",
@@ -2506,7 +2506,7 @@
     {
       "name": "A Sports HD",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/a.png",
       "sources": [
         {
           "name": "S1",
@@ -2537,7 +2537,7 @@
     {
       "name": "Eurosport HD",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/euro.png",
       "sources": [
         {
           "name": "S1",
@@ -2564,7 +2564,7 @@
     {
       "name": "Sky Sports Cricket",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sky.png",
       "sources": [
         {
           "name": "S1",
@@ -2583,7 +2583,7 @@
     {
       "name": "TNT Sports 1",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tnt.png",
       "sources": [
         {
           "name": "S1",
@@ -2606,7 +2606,7 @@
     {
       "name": "Live Cricket",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/live.png",
       "sources": [
         {
           "name": "S1",
@@ -2621,7 +2621,7 @@
     {
       "name": "Live Football",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/live.png",
       "sources": [
         {
           "name": "S1",
@@ -2640,7 +2640,7 @@
     {
       "name": "FIFA Plus",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/fifa.png",
       "sources": [
         {
           "name": "S1",
@@ -2659,7 +2659,7 @@
     {
       "name": "Ten Sports HD",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ten.png",
       "sources": [
         {
           "name": "S1",
@@ -2670,7 +2670,7 @@
     {
       "name": "Bein Sports 2",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bein.png",
       "sources": [
         {
           "name": "S1",
@@ -2689,7 +2689,7 @@
     {
       "name": "FIFA WORLD CUP-2026",
       "category": "Sports",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wc.png",
       "sources": [
         {
           "name": "S1",
@@ -2728,7 +2728,7 @@
     {
       "name": "TravelXP HD",
       "category": "Documentary",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/xp.png",
       "sources": [
         {
           "name": "S1",
