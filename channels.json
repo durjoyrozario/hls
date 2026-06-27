@@ -6,7 +6,7 @@
     {
       "name": "Zee Bangla",
       "category": "GEC",
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zb.png",
       "sources": [
         {
           "name": "S1",
