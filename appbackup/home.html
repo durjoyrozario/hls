@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durjoy TV — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%;
+      background: #000;
+      overflow: hidden;
+      font-family: 'Thasadith', 'Anek Bangla', sans-serif;
+      color: #fff;
+    }
+
+    /* ════════ BACKGROUND CAROUSEL ════════ */
+    #videoWrapper { position: fixed; inset: 0; z-index: 0; background: #000; }
+    .carouselLayer {
+      position: absolute; inset: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0;
+      transition: opacity 1.2s ease;
+    }
+    .carouselLayer.show { opacity: 1; }
+    #videoDim {
+      position: fixed; inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.35) 0%,
+        rgba(0,0,0,0.0)  15%,
+        rgba(0,0,0,0.0)  40%,
+        rgba(0,0,0,0.55) 68%,
+        rgba(0,0,0,0.93) 100%
+      );
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    #app {
+      position: fixed; inset: 0; z-index: 2;
+      display: flex; flex-direction: column;
+      justify-content: flex-end;
+      padding-bottom: 28px;
+    }
+
+    /* ════════ TOP BAR ════════ */
+    #topBar {
+      position: fixed; top: 0; left: 0; right: 0;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 48px 0 48px;
+      z-index: 3;
+    }
+
+    /* Nav tabs */
+    #topNav { display: flex; align-items: center; gap: 4px; }
+    .navTab {
+      font-size: 15px; font-weight: 500;
+      color: rgba(255,255,255,0.55);
+      padding: 7px 18px; border-radius: 24px;
+      cursor: pointer; border: none; background: transparent;
+      transition: all 0.15s ease; letter-spacing: 0.2px;
+    }
+    .navTab:hover { color: #fff; }
+    .navTab.active { color: #fff; font-weight: 700; }
+    .navTab.focused, .navTab:focus { outline: none; background: rgba(255,255,255,0.18); color: #fff; border-radius: 24px; }
+    .navTab.sel { background: rgba(255,255,255,0.18); color: #fff; font-weight: 700; border-radius: 24px; }
+
+    /* Right side — LIVE CHANNELS badge */
+    #topRight { display: flex; align-items: center; gap: 14px; }
+    #clockBadge {
+      background: rgba(30,30,30,0.75);
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 5px 15px; border-radius: 22px;
+      font-size: 13px; font-weight: 600; letter-spacing: 0.5px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    #liveDotClock {
+      width: 8px; height: 8px; border-radius: 50%; background: #ff7f2a;
+      animation: pulse 1.6s ease-in-out infinite; flex-shrink: 0;
+    }
+    #liveLabel {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      color: rgba(255,255,255,0.9);
+    }
+    #liveLabel svg { opacity: 0.9; }
+
+    /* ════════ NOW PLAYING HERO ════════ */
+    #nowPlaying {
+      padding: 0 48px 18px 48px;
+      display: none; /* shown after load */
+    }
+    #nowPlayingLabel {
+      font-size: 12px; font-weight: 600;
+      letter-spacing: 2px; text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 4px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    #nowPlayingLabel::before {
+      content: '';
+      display: inline-block;
+      width: 3px; height: 16px;
+      background: #ff7f2a;
+      border-radius: 2px;
+    }
+    #nowPlayingTitle {
+      font-size: clamp(22px, 3.5vw, 42px);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.5px;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+      max-width: 70vw;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    #nowPlayingDesc {
+      font-size: 13px;
+      font-weight: 400;
+      color: rgba(255,255,255,0.65);
+      margin-top: 4px;
+      max-width: 60vw;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+
+    /* ════════ BOTTOM SECTION ════════ */
+    #bottomSection {
+      display: flex; flex-direction: column; gap: 0;
+    }
+
+    /* ════════ CHANNEL PILLS ROW ════════ */
+    #channelPillsWrap { padding: 0 0 12px 0; }
+    #channelPillsRow {
+      display: flex; gap: 14px;
+      padding: 4px 48px;
+      overflow-x: auto; scrollbar-width: none;
+    }
+    #channelPillsRow::-webkit-scrollbar { display: none; }
+
+    .chPill {
+      flex-shrink: 0;
+      display: flex; flex-direction: column;
+      align-items: center; gap: 6px;
+      cursor: pointer;
+      outline: none !important;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .chPill:focus { outline: none !important; }
+    .chCircle {
+      width: 62px; height: 62px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px; font-weight: 700;
+      border: 2.5px solid transparent;
+      transition: transform 0.15s, border-color 0.15s;
+      text-transform: uppercase;
+      line-height: 1;
+      overflow: hidden;
+      letter-spacing: 0;
+    }
+    /* Logo image inside circle */
+    .chCircle img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .chPill.active .chCircle,
+    .chPill.focused .chCircle,
+    .chPill:focus .chCircle {
+      border-color: #fff;
+      transform: scale(1.08);
+    }
+    .chName {
+      font-size: 10px; color: rgba(255,255,255,0.6);
+      text-align: center; max-width: 70px;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .chPill.active .chName, .chPill.focused .chName { color: #fff; }
+
+    /* ════════ SECTION LABEL ════════ */
+    #yourAppsLabel {
+      padding: 0 48px 10px 48px;
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 2px; text-transform: uppercase;
+      color: rgba(255,255,255,0.45);
+    }
+
+    /* ════════ HERO CARDS ROW ════════ */
+    #heroRow {
+      display: flex; gap: 12px;
+      padding: 16px 48px 0 48px;
+      overflow-x: auto; scrollbar-width: none;
+    }
+    #heroRow::-webkit-scrollbar { display: none; }
+
+    /* Live TV card */
+    #liveCard {
+      flex-shrink: 0;
+      width: 200px; height: 140px;
+      border-radius: 14px;
+      background: rgba(30,50,100,0.75);
+      border: 2px solid rgba(255,255,255,0.15);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 8px;
+      cursor: pointer;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+    #liveCard.focused, #liveCard:focus { outline: none !important; border-color: #fff; transform: scale(1.03); }
+    #liveCard .liveIconRing {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: rgba(255,255,255,0.12);
+      border: 2px solid rgba(255,255,255,0.5);
+      display: flex; align-items: center; justify-content: center;
+    }
+    #liveCard .liveIconRing svg { width: 22px; height: 22px; }
+    #liveCard .liveLbl { font-size: 17px; font-weight: 700; }
+    #liveCard .liveSub { font-size: 11px; color: rgba(255,255,255,0.6); display: flex; align-items: center; gap: 6px; }
+    .liveDot {
+      width: 7px; height: 7px; border-radius: 50%; background: #ff7f2a;
+      animation: pulse 1.6s ease-in-out infinite; display: inline-block;
+    }
+    @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.3;} }
+
+    /* Category cards */
+    .catCard {
+      flex-shrink: 0;
+      width: 160px; height: 140px;
+      border-radius: 14px;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 8px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+    .catCard.focused, .catCard:focus { outline: none !important; border-color: #fff; transform: scale(1.04); }
+    .catIcon { width: 36px; height: 36px; opacity: 0.9; }
+    .catName { font-size: 16px; font-weight: 700; }
+    .catCount { font-size: 11px; opacity: 0.6; }
+
+    /* ════════ LOADING ════════ */
+    #initLoader {
+      position: fixed; inset: 0; background:#000; z-index: 100;
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column; gap: 16px;
+    }
+    #initLoader.hidden { display: none; }
+    .spinner {
+      width: 26px; height: 26px;
+      border: 2px solid rgba(255,255,255,0.15);
+      border-top-color: #ff7f2a;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    #initLoaderText { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.5); }
+
+    /* ════════ CATEGORY OVERLAY ════════ */
+    #categoryOverlay {
+      position: fixed; inset: 0;
+      background: rgba(10,10,10,0.92);
+      backdrop-filter: blur(10px);
+      z-index: 50;
+      display: none; flex-direction: column;
+      padding: 30px 48px;
+    }
+    #categoryOverlay.show { display: flex; }
+    #catOverlayHeader {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 22px;
+    }
+    #catOverlayTitle { font-size: 24px; font-weight: 700; }
+    #catCloseBtn {
+      width: 40px; height: 40px; border-radius: 50%;
+      background: rgba(255,255,255,0.1);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 18px; border: 2px solid transparent;
+    }
+    #catCloseBtn:focus, #catCloseBtn.focused { outline: none; background: #ff7f2a; border-color: #fff; }
+    #catChannelGrid {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px; overflow-y: auto; align-content: start; padding-bottom: 20px;
+    }
+    .catChannelItem {
+      background: rgba(255,255,255,0.07);
+      border: 1.5px solid rgba(255,255,255,0.15);
+      border-radius: 12px; padding: 16px 14px;
+      font-size: 16px; font-weight: 500;
+      cursor: pointer; transition: all 0.15s ease;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .catChannelItem .num { font-size: 12px; color: rgba(255,255,255,0.4); font-weight: 600; min-width: 24px; }
+    .catChannelItem:focus, .catChannelItem.focused {
+      outline: none; background: #ff7f2a; border-color: #ff7f2a;
+      color: #1a1a1a; transform: scale(1.03);
+    }
+    .catChannelItem:focus .num, .catChannelItem.focused .num { color: rgba(0,0,0,0.5); }
+    #emptyCatMsg { color: rgba(255,255,255,0.4); font-size: 16px; padding: 30px; text-align: center; }
+
+    /* ════════ SOURCE DIALOG ════════ */
+    #sourceDialog {
+      position: fixed; inset: 0;
+      background: rgba(10,10,10,0.88);
+      backdrop-filter: blur(12px);
+      z-index: 60; display: none;
+      align-items: center; justify-content: center;
+    }
+    #sourceDialog.show { display: flex; }
+    #sourceBox {
+      background: #1a1a1a; border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 16px; padding: 28px; width: 500px; max-width: 90vw;
+    }
+    #sourceBox h2 { font-size: 19px; font-weight: 700; margin-bottom: 14px; }
+    #sourceInput {
+      width: 100%; background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 8px; padding: 11px 13px;
+      color: #fff; font-size: 14px; margin-bottom: 16px; font-family: inherit;
+    }
+    #sourceInput:focus { outline: none; border-color: #ff7f2a; }
+    .sourceActions { display: flex; gap: 10px; justify-content: flex-end; }
+    .srcBtn { padding: 9px 22px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; border: none; transition: opacity 0.15s; }
+    #srcCancel { background: rgba(255,255,255,0.1); color: #fff; }
+    #srcSave { background: #ff7f2a; color: #1a0a00; }
+
+    /* ════════ TOAST ════════ */
+    #toast {
+      position: fixed; bottom: 36px; left: 50%;
+      transform: translateX(-50%) translateY(8px);
+      background: rgba(20,20,20,0.92); border-radius: 6px;
+      padding: 8px 18px; font-size: 11px; font-weight: 500;
+      letter-spacing: 1px; text-transform: uppercase;
+      color: rgba(255,255,255,0.85);
+      opacity: 0; transition: opacity 0.25s, transform 0.25s;
+      z-index: 80; pointer-events: none; white-space: nowrap;
+    }
+    #toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    /* ══════════════════════════════════════
+       MOBILE RESPONSIVE  (≤ 600px)
+    ══════════════════════════════════════ */
+    @media (max-width: 600px) {
+      #topBar { padding: 12px 16px 0 16px; }
+      .navTab { font-size: 13px; padding: 6px 12px; }
+      #liveLabel { display: none; }
+      #clockBadge { font-size: 12px; padding: 4px 12px; }
+      #app { padding-bottom: 16px; }
+      #yourAppsLabel { padding: 0 16px 8px 16px; font-size: 10px; }
+      #channelPillsRow { padding: 4px 16px; gap: 10px; }
+      .chCircle { width: 50px; height: 50px; font-size: 19px; }
+      .chName { font-size: 9px; max-width: 56px; }
+      #heroRow { padding: 12px 16px 0 16px; gap: 10px; }
+      #liveCard { width: 150px; height: 110px; border-radius: 10px; }
+      #liveCard .liveIconRing { width: 38px; height: 38px; }
+      #liveCard .liveIconRing svg { width: 18px; height: 18px; }
+      #liveCard .liveLbl { font-size: 14px; }
+      #liveCard .liveSub { font-size: 10px; }
+      .catCard { width: 130px; height: 110px; border-radius: 10px; }
+      .catIcon { width: 28px; height: 28px; }
+      .catName { font-size: 13px; }
+      .catCount { font-size: 10px; }
+      #categoryOverlay { padding: 20px 16px; }
+      #catOverlayTitle { font-size: 20px; }
+      #catChannelGrid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+      .catChannelItem { padding: 13px 12px; font-size: 14px; }
+      #nowPlaying { padding: 0 16px 14px 16px; }
+      #nowPlayingTitle { font-size: clamp(18px, 5vw, 28px); max-width: 90vw; }
+      #nowPlayingDesc { font-size: 10px; max-width: 90vw; }
+      #videoDim {
+        background: linear-gradient(
+          to bottom,
+          rgba(0,0,0,0.30) 0%,
+          rgba(0,0,0,0.0)  12%,
+          rgba(0,0,0,0.0)  38%,
+          rgba(0,0,0,0.60) 65%,
+          rgba(0,0,0,0.95) 100%
+        );
+      }
+      #toast { bottom: 20px; font-size: 10px; padding: 7px 14px; }
+    }
+
+    /* ══════════════════════════════════════
+       TABLET  (601px – 900px)
+    ══════════════════════════════════════ */
+    @media (min-width: 601px) and (max-width: 900px) {
+      #topBar { padding: 16px 28px 0 28px; }
+      #yourAppsLabel { padding: 0 28px 10px 28px; }
+      #channelPillsRow { padding: 4px 28px; gap: 12px; }
+      .chCircle { width: 56px; height: 56px; font-size: 21px; }
+      #heroRow { padding: 14px 28px 0 28px; gap: 12px; }
+      #liveCard { width: 180px; height: 125px; }
+      .catCard   { width: 148px; height: 125px; }
+      #nowPlaying { padding: 0 28px 16px 28px; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="initLoader">
+  <div class="spinner"></div>
+  <div id="initLoaderText">Loading channels...</div>
+</div>
+
+<div id="videoWrapper">
+  <div class="carouselLayer" id="carouselLayerA"></div>
+  <div class="carouselLayer" id="carouselLayerB"></div>
+</div>
+<div id="videoDim"></div>
+
+<div id="app">
+
+  <!-- TOP BAR -->
+  <div id="topBar">
+    <nav id="topNav">
+      <button class="navTab active" id="tabHome"     tabindex="0">Home</button>
+      <button class="navTab"        id="tabSettings" tabindex="0">Settings</button>
+      <button class="navTab"        id="tabSource"   tabindex="0">Source</button>
+      <button class="navTab"        id="tabTune"     tabindex="0">Tune</button>
+    </nav>
+    <div id="topRight">
+      <!-- TV icon + LIVE CHANNELS label -->
+      <div id="liveLabel">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+             stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="7" width="20" height="14" rx="2"/>
+          <path d="M7 7l5-5 5 5"/>
+        </svg>
+        Live Channels
+      </div>
+      <div id="clockBadge">
+        <span id="liveDotClock"></span>
+        <span id="clockText">--:--</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM SECTION -->
+  <div id="bottomSection">
+
+    <!-- NOW PLAYING -->
+    <div id="nowPlaying">
+      <div id="nowPlayingLabel">Trending</div>
+      <div id="nowPlayingTitle">—</div>
+      <div id="nowPlayingDesc"></div>
+    </div>
+
+    <div id="yourAppsLabel">Channels</div>
+
+    <!-- CHANNEL PILLS -->
+    <div id="channelPillsWrap">
+      <div id="channelPillsRow"></div>
+    </div>
+
+    <!-- HERO CARDS -->
+    <div id="heroRow">
+      <div id="liveCard" tabindex="0">
+        <div class="liveIconRing">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 8l-3-5M17 8l3-5"/>
+            <rect x="2" y="8" width="20" height="13" rx="2"/>
+            <path d="M9.5 12.5l3 1.7-3 1.7z" fill="#fff" stroke="none"/>
+          </svg>
+        </div>
+        <div class="liveLbl">Live TV</div>
+        <div class="liveSub"><span class="liveDot"></span>Watch now</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- CATEGORY OVERLAY -->
+<div id="categoryOverlay">
+  <div id="catOverlayHeader">
+    <div id="catOverlayTitle">Category</div>
+    <div id="catCloseBtn" tabindex="0">✕</div>
+  </div>
+  <div id="catChannelGrid"></div>
+</div>
+
+<!-- SOURCE DIALOG -->
+<div id="sourceDialog">
+  <div id="sourceBox">
+    <h2>Channel Source URL</h2>
+    <input id="sourceInput" type="url"
+           placeholder="https://raw.githubusercontent.com/...channels.json" />
+    <div class="sourceActions">
+      <button class="srcBtn" id="srcCancel">Cancel</button>
+      <button class="srcBtn" id="srcSave">Save &amp; Reload</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script src="player-core.js"></script>
+<script>
+/*
+  ─────────────────────────────────────────────────────────────
+  BACKGROUND PHOTO CAROUSEL (Google TV style)
+  ─────────────────────────────────────────────────────────────
+  This replaces the old "play selected channel in background" behavior.
+  Update CAROUSEL_SOURCE_URL below to point at your own hosted JSON file
+  so you can edit the carousel without rebuilding the app.
+
+  Expected JSON format (array of objects):
+  [
+    {
+      "image": "https://example.com/poster1.jpg",
+      "title": "Program Name",
+      "description": "Short one-line description of the program."
+    },
+    {
+      "image": "https://example.com/poster2.jpg",
+      "title": "Another Program",
+      "description": "Another short description."
+    }
+  ]
+  ─────────────────────────────────────────────────────────────
+*/
+const CAROUSEL_SOURCE_URL = 'https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/carousel.json'; // TODO: replace with your hosted carousel JSON URL
+const CAROUSEL_INTERVAL_MS = 5000;
+const CAROUSEL_CACHE_KEY = 'durjoy_carousel_cache';
+
+let channels = [];
+let currentIndex = 0;
+
+let carouselItems = [];
+let carouselIdx = 0;
+let carouselTimer = null;
+let carouselActiveLayer = 'A';
+
+const initLoader      = document.getElementById('initLoader');
+const initLoaderText  = document.getElementById('initLoaderText');
+const heroRow         = document.getElementById('heroRow');
+const channelPillsRow = document.getElementById('channelPillsRow');
+const categoryOverlay = document.getElementById('categoryOverlay');
+const catOverlayTitle = document.getElementById('catOverlayTitle');
+const catChannelGrid  = document.getElementById('catChannelGrid');
+const catCloseBtn     = document.getElementById('catCloseBtn');
+const toastEl         = document.getElementById('toast');
+const nowPlayingEl    = document.getElementById('nowPlaying');
+const nowPlayingTitle = document.getElementById('nowPlayingTitle');
+const nowPlayingDesc  = document.getElementById('nowPlayingDesc');
+const carouselLayerA  = document.getElementById('carouselLayerA');
+const carouselLayerB  = document.getElementById('carouselLayerB');
+
+/* ── TOAST ── */
+let toastTimer;
+function showToast(msg) {
+  toastEl.textContent = msg;
+  toastEl.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toastEl.classList.remove('show'), 2200);
+}
+
+/* ── CLOCK ── */
+function tickClock() {
+  const now = new Date();
+  let h = now.getHours(), m = now.getMinutes().toString().padStart(2,'0');
+  const ap = h >= 12 ? 'PM' : 'AM';
+  h = (h % 12) || 12;
+  document.getElementById('clockText').textContent = `${h}:${m} ${ap}`;
+}
+tickClock(); setInterval(tickClock, 15000);
+
+/* ── CAROUSEL: FETCH ── */
+async function fetchCarousel() {
+  try {
+    const res = await fetch(CAROUSEL_SOURCE_URL, { cache: 'no-store' });
+    if (!res.ok) throw new Error('Bad response');
+    const data = await res.json();
+    if (Array.isArray(data) && data.length) {
+      carouselItems = data;
+      try { localStorage.setItem(CAROUSEL_CACHE_KEY, JSON.stringify(data)); } catch (_) {}
+      return true;
+    }
+  } catch (err) {
+    try {
+      const cached = localStorage.getItem(CAROUSEL_CACHE_KEY);
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (Array.isArray(parsed) && parsed.length) { carouselItems = parsed; return true; }
+      }
+    } catch (_) {}
+  }
+  return false;
+}
+
+/* ── CAROUSEL: SHOW SLIDE (crossfade) ── */
+function showCarouselSlide(i) {
+  const item = carouselItems[i];
+  if (!item) return;
+  const showLayer = carouselActiveLayer === 'A' ? carouselLayerB : carouselLayerA;
+  const hideLayer = carouselActiveLayer === 'A' ? carouselLayerA : carouselLayerB;
+
+  showLayer.style.backgroundImage = `url("${item.image}")`;
+  showLayer.classList.add('show');
+  hideLayer.classList.remove('show');
+  carouselActiveLayer = carouselActiveLayer === 'A' ? 'B' : 'A';
+
+  nowPlayingTitle.textContent = item.title || '';
+  nowPlayingDesc.textContent = item.description || '';
+  nowPlayingEl.style.display = 'block';
+}
+
+/* ── CAROUSEL: START ROTATION ── */
+function startCarousel() {
+  if (!carouselItems.length) return;
+  carouselIdx = 0;
+  showCarouselSlide(carouselIdx);
+  clearInterval(carouselTimer);
+  carouselTimer = setInterval(() => {
+    carouselIdx = (carouselIdx + 1) % carouselItems.length;
+    showCarouselSlide(carouselIdx);
+  }, CAROUSEL_INTERVAL_MS);
+}
+
+/* ── SELECT CHANNEL — now jumps straight to the player ── */
+function selectChannel(i) {
+  DurjoyCore.saveLastChannel(i);
+  window.location.href = 'index.html';
+}
+
+/* ── PILL COLORS ── */
+const PILL_COLORS = [
+  '#e53935','#1e88e5','#43a047','#fb8c00','#8e24aa',
+  '#00897b','#3949ab','#6d4c41','#d81b60','#558b2f',
+  '#00838f','#bf360c','#4527a0','#0277bd','#2e7d32',
+  '#c62828','#283593','#1b5e20','#004d40','#e65100'
+];
+
+/* ── BUILD CHANNEL PILLS — logo if available, else first letter ── */
+function buildChannelPills() {
+  channelPillsRow.innerHTML = '';
+  channels.forEach((ch, i) => {
+    const pill = document.createElement('div');
+    pill.className = 'chPill' + (i === currentIndex ? ' active' : '');
+    pill.tabIndex = 0;
+    pill.dataset.index = i;
+    const color = PILL_COLORS[i % PILL_COLORS.length];
+    const letter = ch.name.trim().charAt(0).toUpperCase();
+
+    let circleContent;
+    if (ch.logo && ch.logo.trim() !== '') {
+      // Logo available — show image on colored bg, fallback to letter on error
+      circleContent = `<img src="${ch.logo}" alt="${letter}"
+        onerror="this.style.display='none'; this.parentNode.dataset.fallback='1'; this.parentNode.innerHTML='${letter}';">`;
+    } else {
+      circleContent = letter;
+    }
+
+    pill.innerHTML = `
+      <div class="chCircle" style="background:${color}">${circleContent}</div>
+      <div class="chName">${ch.name}</div>
+    `;
+    pill.addEventListener('click', () => selectChannel(i));
+    pill.addEventListener('keydown', e => { if (e.key === 'Enter') selectChannel(i); });
+    channelPillsRow.appendChild(pill);
+  });
+}
+
+/* ── CATEGORY ICONS (SVG) ── */
+const CAT_ICONS = {
+  'GEC':         `<svg class="catIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M7 7l5-5 5 5"/></svg>`,
+  'News':        `<svg class="catIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8z"/></svg>`,
+  'Movies':      `<svg class="catIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18"/><path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 17h5M17 7h5"/></svg>`,
+  'Documentary': `<svg class="catIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>`,
+  'Kids':        `<svg class="catIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 100 10A5 5 0 0012 2z"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>`,
+  'Music':       `<svg class="catIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>`,
+  'Sports':      `<svg class="catIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M4.93 4.93l4.24 4.24M14.83 14.83l4.24 4.24M14.83 9.17l4.24-4.24M4.93 19.07l4.24-4.24"/></svg>`,
+  'International':`<svg class="catIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>`,
+};
+// Fallback icon for unknown categories
+const DEFAULT_CAT_ICON = `<svg class="catIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M7 7l5-5 5 5"/></svg>`;
+
+/* ── CATEGORY CARD STYLES ── */
+const CAT_STYLES = [
+  { bg: 'rgba(30,60,100,0.80)' },
+  { bg: 'rgba(20,80,30,0.80)'  },
+  { bg: 'rgba(20,40,80,0.80)'  },
+  { bg: 'rgba(80,30,10,0.80)'  },
+  { bg: 'rgba(50,15,70,0.80)'  },
+  { bg: 'rgba(15,65,15,0.80)'  },
+  { bg: 'rgba(70,40,10,0.80)'  },
+  { bg: 'rgba(10,50,70,0.80)'  },
+];
+
+/* ── BUILD CATEGORY CARDS ── */
+function buildCategoryCards() {
+  heroRow.querySelectorAll('.catCard').forEach(c => c.remove());
+  const cats = DurjoyCore.getCategories();
+  cats.forEach((cat, i) => {
+    const st = CAT_STYLES[i % CAT_STYLES.length];
+    const count = DurjoyCore.getChannelsByCategory(cat).length;
+    const icon = CAT_ICONS[cat] || DEFAULT_CAT_ICON;
+    const card = document.createElement('div');
+    card.className = 'catCard';
+    card.tabIndex = 0;
+    card.style.background = st.bg;
+    card.innerHTML = `
+      ${icon}
+      <div class="catName">${cat}</div>
+      <div class="catCount">${count} channels</div>
+    `;
+    card.addEventListener('click', () => openCategory(cat));
+    card.addEventListener('keydown', e => { if (e.key === 'Enter') openCategory(cat); });
+    heroRow.appendChild(card);
+  });
+}
+
+/* ── CATEGORY OVERLAY ── */
+function openCategory(cat) {
+  catOverlayTitle.textContent = cat;
+  catChannelGrid.innerHTML = '';
+  const list = DurjoyCore.getChannelsByCategory(cat);
+  if (!list.length) {
+    catChannelGrid.innerHTML = '<div id="emptyCatMsg">No channels in this category</div>';
+  } else {
+    list.forEach(ch => {
+      const item = document.createElement('div');
+      item.className = 'catChannelItem';
+      item.tabIndex = 0;
+      item.innerHTML = `<span class="num">${String(ch.index+1).padStart(2,'0')}</span><span>${ch.name}</span>`;
+      item.addEventListener('click', () => { selectChannel(ch.index); closeCategory(); });
+      item.addEventListener('keydown', e => { if (e.key === 'Enter') { selectChannel(ch.index); closeCategory(); } });
+      catChannelGrid.appendChild(item);
+    });
+  }
+  categoryOverlay.classList.add('show');
+  setTimeout(() => { const f = catChannelGrid.querySelector('.catChannelItem'); if (f) f.focus(); }, 50);
+}
+function closeCategory() { categoryOverlay.classList.remove('show'); }
+catCloseBtn.addEventListener('click', closeCategory);
+catCloseBtn.addEventListener('keydown', e => { if (e.key === 'Enter') closeCategory(); });
+
+/* ── LIVE CARD ── */
+document.getElementById('liveCard').addEventListener('click', () => { window.location.href = 'index.html'; });
+document.getElementById('liveCard').addEventListener('keydown', e => { if (e.key === 'Enter') window.location.href = 'index.html'; });
+
+/* ── TOP NAV TABS ── */
+function setActiveTab(id) {
+  document.querySelectorAll('.navTab').forEach(t => t.classList.remove('active','sel'));
+  document.getElementById(id).classList.add('active','sel');
+}
+document.getElementById('tabHome').addEventListener('click', () => setActiveTab('tabHome'));
+document.getElementById('tabSettings').addEventListener('click', () => {
+  setActiveTab('tabSettings');
+  setTimeout(() => { window.location.href = 'settings.html'; }, 120);
+});
+document.getElementById('tabTune').addEventListener('click', () => {
+  setActiveTab('tabTune');
+  showToast('Reloading channel list...');
+  DurjoyCore.clearCache && DurjoyCore.clearCache();
+  setTimeout(() => location.reload(), 600);
+});
+document.getElementById('tabSource').addEventListener('click', openSourceDialog);
+
+/* ── SOURCE DIALOG ── */
+const sourceDialog = document.getElementById('sourceDialog');
+const sourceInput  = document.getElementById('sourceInput');
+function openSourceDialog() {
+  setActiveTab('tabSource');
+  sourceInput.value = DurjoyCore.getSourceUrl() || '';
+  sourceDialog.classList.add('show');
+  setTimeout(() => sourceInput.focus(), 80);
+}
+document.getElementById('srcCancel').addEventListener('click', () => {
+  sourceDialog.classList.remove('show');
+  setActiveTab('tabHome');
+});
+document.getElementById('srcSave').addEventListener('click', () => {
+  const val = sourceInput.value.trim();
+  if (val && val !== DurjoyCore.getSourceUrl()) {
+    DurjoyCore.setSourceUrl(val);
+    showToast('Source updated — reloading...');
+    setTimeout(() => location.reload(), 900);
+  } else {
+    sourceDialog.classList.remove('show');
+    setActiveTab('tabHome');
+  }
+});
+
+/* ── KEYBOARD NAV ── */
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' || e.key === 'Backspace' || e.key === 'GoBack' || e.key === 'BrowserBack') {
+    if (categoryOverlay.classList.contains('show')) { e.preventDefault(); closeCategory(); return; }
+    if (sourceDialog.classList.contains('show'))    { e.preventDefault(); sourceDialog.classList.remove('show'); setActiveTab('tabHome'); return; }
+    return;
+  }
+  if (e.key === 'Enter') return;
+  const navKeys = ['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'];
+  if (!navKeys.includes(e.key)) return;
+  e.preventDefault();
+
+  if (categoryOverlay.classList.contains('show')) {
+    const items = Array.from(document.querySelectorAll('#categoryOverlay [tabindex]'));
+    const idx = items.indexOf(document.activeElement);
+    if (idx === -1) { items[0] && items[0].focus(); return; }
+    const cols = Math.max(1, Math.floor(catChannelGrid.clientWidth / 210));
+    let t = idx;
+    if (e.key === 'ArrowRight') t = idx + 1;
+    else if (e.key === 'ArrowLeft') t = idx - 1;
+    else if (e.key === 'ArrowDown') t = idx + cols;
+    else if (e.key === 'ArrowUp') t = idx - cols;
+    if (items[t]) items[t].focus();
+    return;
+  }
+
+  const zones = [
+    Array.from(document.querySelectorAll('#topNav .navTab')),
+    Array.from(document.querySelectorAll('#channelPillsRow .chPill')),
+    Array.from(document.querySelectorAll('#heroRow [tabindex]')),
+  ];
+  const active = document.activeElement;
+  const zoneIdx = zones.findIndex(z => z.includes(active));
+
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+    if (zoneIdx === -1) { zones[0][0] && zones[0][0].focus(); return; }
+    const zone = zones[zoneIdx];
+    const pos  = zone.indexOf(active);
+    const next = e.key === 'ArrowRight' ? zone[pos+1] : zone[pos-1];
+    if (next) next.focus();
+  } else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+    if (zoneIdx === -1) { zones[0][0] && zones[0][0].focus(); return; }
+    const target = e.key === 'ArrowDown' ? zoneIdx + 1 : zoneIdx - 1;
+    if (zones[target] && zones[target].length) zones[target][0].focus();
+  }
+});
+
+/* ═══════════ START ═══════════ */
+(async function start() {
+  const result = await DurjoyCore.fetchChannels();
+  channels = DurjoyCore.getChannels();
+
+  if (!channels.length) {
+    initLoaderText.textContent = 'No channels found. Open Source to set a JSON link.';
+    return;
+  }
+  if (!result.ok && result.usedCache) showToast('Using cached list — source unreachable');
+
+  initLoader.classList.add('hidden');
+  currentIndex = DurjoyCore.loadLastChannel();
+
+  buildChannelPills();
+  buildCategoryCards();
+
+  await fetchCarousel();
+  startCarousel();
+
+  setTimeout(() => {
+    const activePill = channelPillsRow.querySelector(`[data-index="${currentIndex}"]`);
+    if (activePill) {
+      activePill.classList.add('active');
+      activePill.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+      activePill.focus();
+    }
+  }, 300);
+})();
+</script>
+</body>
+</html>
