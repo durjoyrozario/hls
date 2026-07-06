@@ -1,0 +1,2787 @@
+{
+  "app_name": "Durjoy TV",
+  "version": "1.0",
+  "updated": "2026-06-22",
+  "channels": [
+    {
+      "name": "Zee Bangla",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zb.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/ZeeBangla/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/zee-bangla/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.21.20.222:8080/Zeebangla-1/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://172.16.29.194:8090/hls/ZeeBanglaHD.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://172.16.29.34:80/ontest1/ontest1/556.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/ZeeBangla_8/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "http://172.16.29.2:8090/hls/ZeeBanglaHD.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://server.itcnbd.live/stream/zee_bangla.m3u8"
+        },
+        {
+          "name": "S9",
+          "url": "https://s2.itcnbd.live/zee-bangla-hd/index.m3u8"
+        },
+        {
+          "name": "S10",
+          "url": "http://138.252.31.25/Encorder-1/index.m3u8"
+        },
+        {
+          "name": "S11",
+          "url": "https://tvsen6.aynaott.com/ZeeBangla/tracks-v1a1/mono.ts.m3u8"
+        },
+        {
+          "name": "S12",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/228.m3u8"
+        },
+        {
+          "name": "S13",
+          "url": "http://27.124.71.27/Zee_Bangla/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Star Jalsha",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sj.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/starjolsha/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/Star-Jalsha-1/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/StarJalshaHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/Star_jalsha/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/StarJalshaHD/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://s2.itcnbd.live/star-jalsha-hd/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "http://138.252.31.25/Star-Jalsha/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/227.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Colors Bangla",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cb.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.16.29.2:8090/hls/ColorsBanglaHD.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/Colors-Bangla-1/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/Colors-Bangla/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://cdn.moviemazic.xyz:8083/colors-bangla/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/colors-bangla-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/229.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sun Bangla",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sb.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/SUN-BANGLA-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "https://s2.itcnbd.live/sun-bangla-hd/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://27.124.71.27/Sun_Bangla/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/231.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sony Aath",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sa.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/SonyAath/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/sony-aath/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/SonyAtth.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/Sony-Aath/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/SonyAath_7/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://server.itcnbd.live/stream/sonyaath.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://s2.itcnbd.live/sony-aat/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "http://138.252.31.25/SONY-8/index.m3u8"
+        },
+        {
+          "name": "S9",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/230.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Enter10 Bangla",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/eb.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/ENTER10-BANGLA/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/Enter10Bangla.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/ENTER-10-BANGLA/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/enterr-10/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://138.252.31.25/Enter10-Bangla/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/232.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "NTV",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ntv.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/NTVLive1/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/ntv/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/NTV/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://cdn.moviemazic.xyz:8083/NTV/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://138.252.31.25/NTV/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/202.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Somoy TV",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/somoy.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/somyyt/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/SomoyTV/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/somoytv.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/SOMOY_TV/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/SomoyTv/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://server.itcnbd.live/stream/somoy_tv.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://s2.itcnbd.live/somoy-tv/index.m3u8"
+        },
+        {
+          "name": "S9",
+          "url": "http://138.252.31.25/Somoy-TV/index.m3u8"
+        },
+        {
+          "name": "S10",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/210.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Channel i",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/channeli.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/chnnel-i/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/Channeli/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/channelihd.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/CHANNAL-I/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/ChannelI/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://server.itcnbd.live/stream/channel_i.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://s2.itcnbd.live/channel-i/index.m3u8"
+        },
+        {
+          "name": "S9",
+          "url": "http://138.252.31.25/Channel-i/index.m3u8"
+        },
+        {
+          "name": "S10",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/200.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Jamuna TV",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jamuna.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/JAMUNATV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/JamunaTV.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/Jamuna/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://cdn.moviemazic.xyz:8083/JamunaTV/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://server.itcnbd.live/stream/jamuna_tv.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://s2.itcnbd.live/jamuna-tv/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "http://138.252.31.25/Jamuna-TV/index.m3u8"
+        },
+        {
+          "name": "S9",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/217.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Independent TV",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/independent.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/indopendettv/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/IndependentTV.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/INDEPENDENT-NEWS/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://cdn.moviemazic.xyz:8083/IndependentTV/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://server.itcnbd.live/stream/independent_tv.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://s2.itcnbd.live/independent-tv/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "http://138.252.31.25/Independent/index.m3u8"
+        },
+        {
+          "name": "S9",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/211.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "News 24",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/news24.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/NEWS24LIVE/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/NEWS-24/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/News24/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/220.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Channel 24",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/24.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/CH24/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/Chanal24/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/channel24/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/channel-24/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/212.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Deepto TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/deepto.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/deeptho_nk/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/Deepto/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/DeeptoTV/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://138.252.31.25/Dipto-TV/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/218.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Ekhon TV",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ekhon.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/EKHONTV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/EKHON-TV/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://server.itcnbd.live/stream/ekhon_tv.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/225.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Desh TV",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/desh.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/DeshTV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/DESH/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://server.itcnbd.live/stream/desh_tv.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/206.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Nagorik TV",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/nagorik.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/nagorik_r/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/NAGORIK-TV/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/NagorikTV/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/nagorik/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/223.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Bangla Vision",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bvision.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/BanglaV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://cdn.moviemazic.xyz:8083/BanglaVision/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://138.252.31.25/Bangla-Vision/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/205.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ATN Bangla",
+      "category": "GEC",
+      "logo": "atnbangla",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/atnbd_nk/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/ATN-BANGLA/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/ATNBangla/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://server.itcnbd.live/stream/atn_bangla.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/atn-bangla/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/198.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Channel 9",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/9.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/ch9_nk/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/CHANNEL-9/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/Channel9/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/325.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Ekattor TV",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/71.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/ekattor_nk/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/71-TV/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/EkattorTV/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://server.itcnbd.live/stream/ekattor_tv.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://138.252.31.25/Ekattor-TV/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/214.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Ekushey TV",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/etv.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.21.20.222:8080/EkusheyTV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/EKUSHEY-TV/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://138.252.31.25/Ekushey-TV/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/201.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Boishakhi TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/boi.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.21.20.222:8080/BoishakhiTV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/204.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DBC News",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dbc.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.21.20.222:8080/dbcnews/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/DBC-NEWS/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/DBCNews/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/219.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ATN News",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/atnnews.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.16.29.2:8090/hls/AtnNews.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/ATN-NEWS/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/ATNNews/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://server.itcnbd.live/stream/atn_news.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://s2.itcnbd.live/atn-news/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/208.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "My TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/my.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.21.20.222:8080/MYTV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/MY-TV/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/207.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Asian TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/asian.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.21.20.222:8080/AsianTV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/215.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SA TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sa.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.21.20.222:8080/SATV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://cdn.moviemazic.xyz:8083/SATV/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/216.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Maasranga TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/mach.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://103.89.248.130:8082/MAASRANGA-TV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://cdn.moviemazic.xyz:8083/Maasranga/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/maasranga-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/226.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "RTV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/rtv.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://103.89.248.130:8082/RTV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/rtv_nk_34/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/203.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "BTV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/btv.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://cdn.moviemazic.xyz:8083/BTV-National/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://138.252.31.25/BTV/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/1LIVE/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ETV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/etv.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://103.89.248.130:8082/2LIVE/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Global TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/global.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://103.89.248.130:8082/GLOBAL-TV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "https://flv.intechmedia.net/live/ch113.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.20.3.1:3255/btv_sf/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sony TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/set.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/SonyEntertainmentTelevisionHD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/sony/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/SonyHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/SONY-TV/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/SonyEntertainmentTelevisionHD_9/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://server.itcnbd.live/stream/sonyentertainmnt_hd.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://s2.itcnbd.live/sony-ent-hd/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "http://138.252.31.25/Sony-TV/index.m3u8"
+        },
+        {
+          "name": "S9",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/237.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Star Plus",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/plus.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/Star-Plus/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/starplus/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/StarPlusHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/STAR-PLUS/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/star-plus-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/236.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Zee TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ztv.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/ZeeTVHD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/zeetv/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/ZeeTVHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/zee-tv-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://server.itcnbd.live/stream/zee_tv_hd.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://s2.itcnbd.live/zee-tv-hd/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/238.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Colors HD",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/colors.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/Colors-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/colors/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/ColorsHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/Colors-HD/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/colors-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/239.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Star Bharat",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bharat.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/STAR-BHARAT-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/STAR-BHARAT/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://s2.itcnbd.live/star-bharat-hd/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/240.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "&TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/&TVHD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/AND-TV/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://server.itcnbd.live/stream/and_tv_hd.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/241.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sony Max",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/max.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/SonyMAX/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/SONY-MAX/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/SonyMAX_37/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://server.itcnbd.live/stream/sony_max_hd.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/sony-max-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/246.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sony Sab",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sab.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://103.89.248.130:8082/SONY-SAB/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "https://server.itcnbd.live/stream/sonysab_hd.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/327.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Zee Cinema HD",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zc.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/ZeeCinemaHD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/ZeeCinemaHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/Zee-Cinema-HD/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/ZeeCinemaHD_38/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://server.itcnbd.live/stream/zee_cinema_hd.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://s2.itcnbd.live/zee-cinema-hd/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/244.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Zee Action",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zeeaction.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/ZeeAction/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/ZeeAction/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://server.itcnbd.live/stream/zee_action.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Star Gold",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/stargold.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/Star-Gold/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/StarGoldHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/star-gold/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://cdn.moviemazic.xyz:8083/Star-Gold/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/star-gold-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/268.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Star Movies",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starmovies.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/Star-Movies/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/StarMoviesHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/Star-Movies/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/star-movies-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/309.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "&Pictures HD",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&picture.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/&PicturesHD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/andpictures/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/AndPictureHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/and-picture-HD/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/andpictureHD/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://server.itcnbd.live/stream/andpicture_hd.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://s2.itcnbd.live/and-picturs-hd/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/245.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Zee BanglaSonar",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zbs.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/ZeeBanglaCinema/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/ZeeBanglaCinemaHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/ZEE-BANGLA-CINEMA/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://server.itcnbd.live/stream/zee_bangla_cinema.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/zee-bangla-cinema/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://27.124.71.27/Zee_Bangla_Cinema/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/235.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Jalsha Movies HD",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jm.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/JALSHA-MOVIES-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/JalshaMoviesHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/JALSHA-MOVIES/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/jalsha-movies-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/234.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Colors Bangla Cinema",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cbc.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/COLORS-BANGLA-CINEMA/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/COLORS-BANGLA-CINEMA/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://s2.itcnbd.live/colors-bangla-cinema/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Colors Cineplex HD",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cineplex.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/COLORS-CINEPLEX-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/ColorsCineplexHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/Colors-Cineplex/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/colors-cineplex-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/247.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sony Pix HD",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/pix.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.21.20.222:8080/sonypix/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/sony-pix-hd/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/SonyPIXHD/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://server.itcnbd.live/stream/sonypix_hd.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/sony-pix-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/306.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/hbo.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://103.89.248.130:8082/HBO/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "https://s2.itcnbd.live/hbo-hd/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://27.124.71.27/HBO/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AXN HD",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/axn.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/AXN-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/AXN/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://s2.itcnbd.live/axn-hd/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://27.124.71.27/AXN/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "B4U TV",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/b4u.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/b4utv/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/B4U-MOVIES/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://server.itcnbd.live/stream/b4u_movies.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Discovery",
+      "category": "Documentary",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/discovery.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/Discovery/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/discovery/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/DiscoveryHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/DISCOVERY-HD/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/Discovery/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://server.itcnbd.live/stream/discovery_hd.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://s2.itcnbd.live/discovery-hd/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/286.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Nat Geo HD",
+      "category": "Documentary",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/natgeo.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/NATGEO-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/National-Geographic/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/National-Geography/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/natgeo-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/287.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Nat Geo Wild",
+      "category": "Documentary",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wild.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/NATGEO-WILD-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/nat-geo-wild/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://s2.itcnbd.live/natgeo-wild-hd/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/288.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Animal Planet HD",
+      "category": "Documentary",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/animal.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/AnimalPlanetHD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/animalplanet/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/AnimalPlanetHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/animalplanent/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/AnimalPlanetHD_12/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://server.itcnbd.live/stream/animal_planet_hd.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://s2.itcnbd.live/animal-planet-hd/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "http://27.124.71.27/Animal_Planet/index.m3u8"
+        },
+        {
+          "name": "S9",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/289.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "BBC Earth HD",
+      "category": "Documentary",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bbcearth.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/BC-Earth-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/bbcearthhd.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/BBC-Earth/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://server.itcnbd.live/stream/sonybbc_earth_hd.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/bbc-earth-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/290.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TLC HD",
+      "category": "Documentary",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tlc.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/TLCHD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/tlc-hd/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://server.itcnbd.live/stream/tlc_hd.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/tlc-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/293.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Nick",
+      "category": "Kids",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/nick.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/NICK/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/nick/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://s2.itcnbd.live/nick/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/298.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cartoon Network",
+      "category": "Kids",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cn.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/CartoonNetwork/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/CartoonNetwork/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/CartoonNetworkHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/cn/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/CartoonNetwork_6/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://server.itcnbd.live/stream/cartoon_network_hd.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://s2.itcnbd.live/cartoon-network/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/294.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Pogo",
+      "category": "Kids",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/pogo.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/POGO/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/POGO/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/POGO_5/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://server.itcnbd.live/stream/pogo_sd.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/pogo/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/300.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Discovery Kids",
+      "category": "Kids",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dkids.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/DiscoveryKids/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/DiscoveryKids.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/DISCOVERY-KIDS/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://server.itcnbd.live/stream/discovery_kids.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/304.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sony Yay",
+      "category": "Kids",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/yay.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/SONY-YAY/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/SONY-YAY/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://server.itcnbd.live/stream/sonyyay.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/sony-yay/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Motu Patlu",
+      "category": "Kids",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/motu.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "https://tplay.live/playlist/kids/motu-patlu/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Gopal Bhar",
+      "category": "Kids",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gopal.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "https://tplay.live/playlist/kids/gopal-bhar/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "9XM",
+      "category": "Music",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/9xm.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/9xm/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/9XM/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/9xm.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/9XM/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://138.252.31.25/9XM/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/318.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sangeet Bangla",
+      "category": "Music",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sangeet.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/songit_bangla/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/sangeetbangla/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/SangeetBangla.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/SANGEET-BANGLA/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/317.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Gaan Bangla",
+      "category": "Music",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gb.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.21.20.222:8080/Gaanbangla/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/GAANBANGLA-TV/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "B4U Music",
+      "category": "Music",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/b4umusic.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/B4UMusic/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/B4U-MUSIC/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://server.itcnbd.live/stream/b4u_music.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Al Jazeera",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/al.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/Aljazeera/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/ALjazeeraNews.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/aljazeeta-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://138.252.31.25/Aljajera/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/281.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CNN",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cnn.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/cnn/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/CNN/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://server.itcnbd.live/stream/cnn.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/283.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "BBC World",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bbc.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.16.29.2:8090/hls/bbc_world.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/BBC-NEWS/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://s2.itcnbd.live/bbc-news/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://138.252.31.25/BBC-News/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/282.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DW News HD",
+      "category": "News",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dw.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/DW-NEWS-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/285.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Hum TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/humtv.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/hum_tp/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/HUM-TV/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://server.itcnbd.live/stream/hum_tv.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/hum-tv/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/332.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Makkah Live",
+      "category": "Religious",
+      "logo": "",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/MakkahLive/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://138.252.31.25/Makka-TV/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Medina Live",
+      "category": "Religious",
+      "logo": "",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/MedinawithLive1MedinawithLive/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Peace TV Bangla",
+      "category": "Religious",
+      "logo": "",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/PEACE-TV-BANGLA-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://s2.itcnbd.live/peace-tv-bangla/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/321.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "T Sports HD",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tsports.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://103.165.93.31:8095/unt-s/video.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.165.93.31:8095/t-sports-hd4k/video.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.165.93.31:8095/tsports/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://10.10.10.3:8090/FWC-10/video.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/TSportsHD/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://10.10.10.3:8090/WCLIVE/video.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "http://10.10.10.3:8090/TSports/video.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/250.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Gazi TV",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gtv.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/gtv/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/GAZITV-1/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/gazitvhd.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/GAZI-TV/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/GaziTV/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://s2.itcnbd.live/gtv/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "http://138.252.31.25/Gazi-TV/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/213.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Star Sports 1 HD",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starsports.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/StarSports1/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/stersports1hd/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/StarSports1HD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/STAR-SPORTS-1/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/star-sports-1-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://138.252.31.25/Star-Sports-HD1/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/256.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Star Sports 2",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starsports.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/StarSports2/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/StarSports2HD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/STAR-SPORTS-2/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/star-sports-2-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/257.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sony Ten 1",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/SonyTenSports1/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/SonyTen1hd.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/Sony-TEN-1/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://cdn.moviemazic.xyz:8083/SonyTen1/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://server.itcnbd.live/stream/sony_sports_1_hd.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://s2.itcnbd.live/sony-sports-1-hd/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/252.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sony Ten 2",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/SonyTenSports2/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/sony-TEN-2/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/SonyTen2/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://server.itcnbd.live/stream/sony_sports_2_hd.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/sony-sports-2-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/253.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sony Ten 3",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.16.29.2:8090/hls/SonyTen3hd.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/sony-ten3/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://cdn.moviemazic.xyz:8083/SonyTen3/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/sony-sports-3/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/254.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PTV Sports",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ptv.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.21.20.222:8080/PTV/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.20.3.1:3255/ptv/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/ptvsportshd.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/PTV/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/ptv_pk/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://s2.itcnbd.live/ptv-sports-hd/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/264.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Bein Sports",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bein.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/beinspots/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/BIN-1/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/BeinSports1ENG.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/Bein-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/Feedget/beinspots_2/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://27.124.71.27/beIN_Sports_1/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/275.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "A Sports HD",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/a.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/A-SPORTS-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/ASportsHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/A-SPORTS/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://server.itcnbd.live/stream/euro_sports_hd.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/a-sports-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/263.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Eurosport HD",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/euro.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/EurosportHD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.16.29.2:8090/hls/eurosportshd.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/Eurosports/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/eurosports-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/262.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sky Sports Cricket",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sky.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.16.29.2:8090/hls/SkySportsCricketHD.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/Sky-Sports-Cricket/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/271.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT Sports 1",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tnt.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.16.29.2:8090/hls/tntsports1hd.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/TNT-Sports-1/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://27.124.71.27/TNT_Sports_1/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/265.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Live Cricket",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/live.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://103.89.248.130:8082/LIVE-CRICKET/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/LIVE-CRICKET-1/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Live Football",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/live.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://103.89.248.130:8082/LIVE-FOOTBALL/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/LIVE-FOOTBALL-1/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/LIVE-FOOTBALL-2/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FIFA Plus",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/fifa.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.21.20.222:8080/FIFA_PLUS/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/FIFA_PLUS_ITALY/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.21.20.222:8080/FIFA_PLUS_United_States/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Ten Sports HD",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ten.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.16.29.2:8090/hls/tensportshd.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Bein Sports 2",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bein.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://27.124.71.27/beIN_Sports_2/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/276.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FIFA WORLD CUP-2026",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wc.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "https://stream.midiplexhd.com/sky14/video.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "https://stream.midiplexhd.com/sm2/video.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://stream.midiplexhd.com/sm1/video.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/FIFA-World-Cup-Live/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://103.89.248.130:8082/FIFA-World-Cup-Live-1/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://103.89.248.130:8082/FIFA-World-Cup-Live-2/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "http://103.89.248.130:8082/FIFA-World-Cup-Live-3/index.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TravelXP HD",
+      "category": "Documentary",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/xp.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/TRAVELXP-HD/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/travel-xp/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "https://s2.itcnbd.live/travel-xp/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/291.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Unite8 HD",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/u8.png",
+      "sources": [
+        {
+          "name": "Zee Cafe",
+          "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8"
+        },
+        {
+          "name": "And Flix",
+          "url": "http://103.165.93.31:8095/somoyTv/index.m3u8"
+        },
+        {
+          "name": "And Flix 2",
+          "url": "http://103.165.93.31:8095/somoyTv/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "https://s2.itcnbd.live/and-flix-hd/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "https://s2.itcnbd.live/zee-cafe-hd/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://209.97.175.236/hls/stream.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "https://flv.intechmedia.net/live/ch113.m3u8"
+        }
+      ]
+    }
+  ]
+}
