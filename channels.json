@@ -2207,19 +2207,19 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/TSportsHD/index.m3u8"
+          "url": "http://172.21.22.2:8080/TSports-1/index.m3u8"
         },
         {
           "name": "S2",
-          "url": "http://172.21.20.222:8080/TSports-1/index.m3u8"
+          "url": "http://172.19.17.4:8090/hls/tsportshd.m3u8"
         },
         {
           "name": "S3",
-          "url": "http://172.16.29.2:3255/hls/tsportshd.m3u8"
+          "url": "http://172.19.17.139:8090/hls/tsportshd.m3u8"
         },
         {
           "name": "S4",
-          "url": "http://103.89.248.130:8082/T-SPORTS/index.m3u8"
+          "url": "http://172.19.17.139:8090/hls/tntsports1hd.m3u8"
         },
         {
           "name": "S5",
@@ -2227,15 +2227,27 @@
         },
         {
           "name": "S6",
-          "url": "https://s2.itcnbd.live/t-sports/index.m3u8"
+          "url": "http://172.16.200.205:8088/102/index.m3u8"
         },
         {
           "name": "S7",
-          "url": "http://27.124.71.27/T-Sports/index.m3u8"
+          "url": "http://103.165.93.31:8095/tsports/video.m3u8"
         },
         {
           "name": "S8",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/250.m3u8"
+          "url": "http://103.165.93.31:8095/t-sports-hd4k/video.m3u8"
+        },
+        {
+          "name": "S9",
+          "url": "http://172.20.5.1:8080/1234567/7654321/36.m3u8"
+        },
+        {
+          "name": "S10",
+          "url": "http://172.20.5.1:8080/1234567/7654321/291.m3u8"
+        },
+        {
+          "name": "S11",
+          "url": "http://172.20.5.1:8080/1234567/7654321/298.m3u8"
         }
       ]
     },
