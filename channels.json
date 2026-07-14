@@ -1384,11 +1384,11 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/ZeeBanglaCinema/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/25.m3u8"
         },
         {
           "name": "S2",
-          "url": "http://172.16.29.2:8090/hls/ZeeBanglaCinemaHD.m3u8"
+          "url": "http://172.19.17.139:8090/hls/ZeeBanglaCinemaHD.m3u8"
         },
         {
           "name": "S3",
@@ -1396,7 +1396,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/zee_bangla_cinema.m3u8"
+          "url": "http://172.19.17.4:8090/hls/ZeeBanglaCinemaHD.m3u8"
         },
         {
           "name": "S5",
