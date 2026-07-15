@@ -976,7 +976,7 @@
         },
         {
           "name": "S8",
-          "url": "http://103.89.248.130:8082/1LIVE/index.m3u8"
+          "url": "http://172.20.5.1:80/webplayer/webplayer/394.m3u8"
         }
       ]
     },
