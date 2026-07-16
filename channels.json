@@ -1439,7 +1439,7 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.19.17.34:80/live/ontest1/ontest1/38.ts"
+          "url": "http://172.19.17.34:80/live/ontest1/ontest1/38.m3u8"
         },
         {
           "name": "S2",
