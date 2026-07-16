@@ -1798,7 +1798,7 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/NICK/index.m3u8"
+          "url": "http://172.19.17.34:80/live/ontest1/ontest1/102.ts"
         },
         {
           "name": "S2",
@@ -1806,11 +1806,11 @@
         },
         {
           "name": "S3",
-          "url": "https://s2.itcnbd.live/nick/index.m3u8"
+          "url": "http://172.21.20.223:8080/NICK/index.m3u8"
         },
         {
           "name": "S4",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/298.m3u8"
+          "url": "http://172.16.200.205:8088/601/index.m3u8"
         }
       ]
     },
