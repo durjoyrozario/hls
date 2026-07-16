@@ -1439,11 +1439,11 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/JALSHA-MOVIES-HD/index.m3u8"
+          "url": "http://172.19.17.34:80/live/ontest1/ontest1/38.ts"
         },
         {
           "name": "S2",
-          "url": "http://172.16.29.2:8090/hls/JalshaMoviesHD.m3u8"
+          "url": "http://172.19.17.4:8090/hls/JalshaMoviesHD.m3u8"
         },
         {
           "name": "S3",
@@ -1451,7 +1451,7 @@
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/jalsha-movies-hd/index.m3u8"
+          "url": "http://172.20.5.1:80/webplayer/webplayer/383.m3u8"
         },
         {
           "name": "S5",
