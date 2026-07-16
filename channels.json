@@ -2695,7 +2695,7 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.5.1:8080/1234567/7654321/221.ts"
+          "url": "http://172.20.5.1:80/webplayer/webplayer/383.m3u8"
         }
       ]
     },
