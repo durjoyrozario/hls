@@ -69,7 +69,7 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/starjolsha/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/94"
         },
         {
           "name": "S2",
@@ -77,7 +77,7 @@
         },
         {
           "name": "S3",
-          "url": "http://172.16.29.2:8090/hls/StarJalshaHD.m3u8"
+          "url": "http://172.19.17.4:8090/hls/StarJalshaHD.m3u8"
         },
         {
           "name": "S4",
@@ -89,15 +89,15 @@
         },
         {
           "name": "S6",
-          "url": "https://s2.itcnbd.live/star-jalsha-hd/index.m3u8"
+          "url": "http://172.19.17.139:8090/hls/StarJalshaHD.m3u8"
         },
         {
           "name": "S7",
-          "url": "http://138.252.31.25/Star-Jalsha/index.m3u8"
+          "url": "http://172.16.200.205:8088/302/index.m3u8"
         },
         {
           "name": "S8",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/227.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/94.m3u8"
         }
       ]
     },
