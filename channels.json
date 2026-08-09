@@ -1485,23 +1485,23 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/COLORS-CINEPLEX-HD/index.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         },
         {
           "name": "S2",
-          "url": "http://172.16.29.2:8090/hls/ColorsCineplexHD.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         },
         {
           "name": "S3",
-          "url": "http://103.89.248.130:8082/Colors-Cineplex/index.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/colors-cineplex-hd/index.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/247.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         }
       ]
     },
