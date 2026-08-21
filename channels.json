@@ -4,7 +4,7 @@
   "updated": "2026-06-22",
   "channels": [
     {
-      "name": "Zee Bangla",
+      "name": "জি বাংলা",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zb.png",
       "sources": [
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "name": "Star Jalsha",
+      "name": "স্টার জলসা",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sj.png",
       "sources": [
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "name": "Colors Bangla",
+      "name": "কালার্স বাংলা",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cb.png",
       "sources": [
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "name": "Sun Bangla",
+      "name": "সান বাংলা",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sb.png",
       "sources": [
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "name": "Sony Aath",
+      "name": "সনি আট",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sa.png",
       "sources": [
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "name": "Enter10 Bangla",
+      "name": "এন্টারটেইন বাংলা",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/eb.png",
       "sources": [
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "name": "NTV",
+      "name": "এনটিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ntv.png",
       "sources": [
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "name": "Somoy TV",
+      "name": "সময় টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/somoy.png",
       "sources": [
