@@ -316,7 +316,7 @@
       ]
     },
     {
-      "name": "Channel i",
+      "name": "চ্যানেল আই",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/channeli.png",
       "sources": [
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "name": "Jamuna TV",
+      "name": "যমুনা টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jamuna.png",
       "sources": [
@@ -406,7 +406,7 @@
       ]
     },
     {
-      "name": "Independent TV",
+      "name": "ইন্ডিপেন্ডেন্ট টেলিভিশন",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/independent.png",
       "sources": [
@@ -449,7 +449,7 @@
       ]
     },
     {
-      "name": "News 24",
+      "name": "নিউজ টোয়েন্টিফোর",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/news24.png",
       "sources": [
@@ -476,7 +476,7 @@
       ]
     },
     {
-      "name": "Channel 24",
+      "name": "চ্যানেল টোয়েন্টিফোর",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/24.png",
       "sources": [
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "name": "Deepto TV",
+      "name": "দীপ্ত টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/deepto.png",
       "sources": [
@@ -538,7 +538,7 @@
       ]
     },
     {
-      "name": "Ekhon TV",
+      "name": "এখন টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ekhon.png",
       "sources": [
@@ -565,7 +565,7 @@
       ]
     },
     {
-      "name": "Desh TV",
+      "name": "দেশ টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/desh.png",
       "sources": [
@@ -588,7 +588,7 @@
       ]
     },
     {
-      "name": "Nagorik TV",
+      "name": "নাগরিক টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/nagorik.png",
       "sources": [
@@ -615,7 +615,7 @@
       ]
     },
     {
-      "name": "Bangla Vision",
+      "name": "বাংলা ভিশন",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bvision.png",
       "sources": [
