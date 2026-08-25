@@ -644,7 +644,7 @@
     {
       "name": "এটিএন বাংলা",
       "category": "GEC",
-      "logo": "atnbangla",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/atn.png",
       "sources": [
         {
           "name": "S1",
