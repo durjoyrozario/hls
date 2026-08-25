@@ -642,7 +642,7 @@
       ]
     },
     {
-      "name": "ATN Bangla",
+      "name": "এটিএন বাংলা",
       "category": "GEC",
       "logo": "atnbangla",
       "sources": [
@@ -673,7 +673,7 @@
       ]
     },
     {
-      "name": "Channel 9",
+      "name": "চ্যানেল নাইন",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/9.png",
       "sources": [
@@ -700,7 +700,7 @@
       ]
     },
     {
-      "name": "Ekattor TV",
+      "name": "একাত্তর টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ekattor.png",
       "sources": [
@@ -735,7 +735,7 @@
       ]
     },
     {
-      "name": "Ekushey TV",
+      "name": "একুশে ইটিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/etv.png",
       "sources": [
@@ -758,7 +758,7 @@
       ]
     },
     {
-      "name": "Boishakhi TV",
+      "name": "বৈশাখী টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/boi.png",
       "sources": [
@@ -773,7 +773,7 @@
       ]
     },
     {
-      "name": "DBC News",
+      "name": "ডিবিসি নিউজ",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dbc.png",
       "sources": [
@@ -800,7 +800,7 @@
       ]
     },
     {
-      "name": "ATN News",
+      "name": " এটিএন নিউজ",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/atnnews.png",
       "sources": [
@@ -835,7 +835,7 @@
       ]
     },
     {
-      "name": "My TV",
+      "name": "মাই টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/my.png",
       "sources": [
@@ -854,7 +854,7 @@
       ]
     },
     {
-      "name": "Asian TV",
+      "name": "এশিয়ান টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/asian.png",
       "sources": [
@@ -869,7 +869,7 @@
       ]
     },
     {
-      "name": "SA TV",
+      "name": "এসএ টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sa.png",
       "sources": [
@@ -892,7 +892,7 @@
       ]
     },
     {
-      "name": "Maasranga TV",
+      "name": "মাছরাঙা টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/mach.png",
       "sources": [
@@ -919,7 +919,7 @@
       ]
     },
     {
-      "name": "RTV",
+      "name": "আর টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/rtv.png",
       "sources": [
@@ -938,7 +938,7 @@
       ]
     },
     {
-      "name": "BTV",
+      "name": "বিটিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/btv.png",
       "sources": [
@@ -981,7 +981,7 @@
       ]
     },
     {
-      "name": "ETV",
+      "name": "একুশে ইটিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/etv.png",
       "sources": [
@@ -992,7 +992,7 @@
       ]
     },
     {
-      "name": "Global TV",
+      "name": "গ্লোবাল টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/global.png",
       "sources": [
@@ -1011,7 +1011,7 @@
       ]
     },
     {
-      "name": "Sony TV",
+      "name": "সনি এন্টারটেইনমেন্ট টেলিভিশন",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/set.png",
       "sources": [
@@ -1054,7 +1054,7 @@
       ]
     },
     {
-      "name": "Star Plus",
+      "name": "স্টার প্লাস",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/plus.png",
       "sources": [
@@ -1085,7 +1085,7 @@
       ]
     },
     {
-      "name": "Zee TV",
+      "name": "জি বাংলা",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ztv.png",
       "sources": [
@@ -1120,7 +1120,7 @@
       ]
     },
     {
-      "name": "Colors HD",
+      "name": "কালার্স এইচডি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/colors.png",
       "sources": [
@@ -1151,7 +1151,7 @@
       ]
     },
     {
-      "name": "Star Bharat",
+      "name": "স্টার ভারত",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bharat.png",
       "sources": [
@@ -1174,7 +1174,7 @@
       ]
     },
     {
-      "name": "&TV",
+      "name": "& টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&.png",
       "sources": [
@@ -1197,7 +1197,7 @@
       ]
     },
     {
-      "name": "Sony Max",
+      "name": "সনি ম্যাক্স",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/max.png",
       "sources": [
@@ -1228,7 +1228,7 @@
       ]
     },
     {
-      "name": "Sony Sab",
+      "name": "সনি সাব",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sab.png",
       "sources": [
@@ -1247,7 +1247,7 @@
       ]
     },
     {
-      "name": "Zee Cinema HD",
+      "name": "জি সিনেমা এইচডি",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zc.png",
       "sources": [
@@ -1282,7 +1282,7 @@
       ]
     },
     {
-      "name": "Zee Action",
+      "name": "জি অ্যাকশন",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zeeaction.png",
       "sources": [
@@ -1301,7 +1301,7 @@
       ]
     },
     {
-      "name": "Star Gold",
+      "name": "স্টার গোল্ড",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/stargold.png",
       "sources": [
@@ -1332,7 +1332,7 @@
       ]
     },
     {
-      "name": "Star Movies",
+      "name": "স্টার মুভিজ",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starmovies.png",
       "sources": [
@@ -1359,7 +1359,7 @@
       ]
     },
     {
-      "name": "&Pictures HD",
+      "name": "& পিকচার্স এইচডি",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&picture.png",
       "sources": [
@@ -1433,7 +1433,7 @@
       ]
     },
     {
-      "name": "Jalsha Movies HD",
+      "name": "জলসা মুভিজ এইচডি",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jm.png",
       "sources": [
@@ -1460,7 +1460,7 @@
       ]
     },
     {
-      "name": "Colors Bangla Cinema",
+      "name": "কালার্স বাংলা সিনেমা",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cbc.png",
       "sources": [
@@ -1479,7 +1479,7 @@
       ]
     },
     {
-      "name": "Colors Cineplex HD",
+      "name": "কালার্স সিনেপ্লেক্স এইচডি",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cineplex.png",
       "sources": [
@@ -1506,7 +1506,7 @@
       ]
     },
     {
-      "name": "Sony Pix HD",
+      "name": "সনি পিক্স এইচডি",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/pix.png",
       "sources": [
@@ -1537,7 +1537,7 @@
       ]
     },
     {
-      "name": "HBO",
+      "name": "এইচবিও",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/hbo.png",
       "sources": [
@@ -1556,7 +1556,7 @@
       ]
     },
     {
-      "name": "AXN HD",
+      "name": "এএক্সএন",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/axn.png",
       "sources": [
@@ -1579,7 +1579,7 @@
       ]
     },
     {
-      "name": "B4U TV",
+      "name": "বিফোরইউ",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/b4u.png",
       "sources": [
@@ -1598,7 +1598,7 @@
       ]
     },
     {
-      "name": "Discovery",
+      "name": "ডিসকোভারি চ্যানেল",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/discovery.png",
       "sources": [
@@ -1637,7 +1637,7 @@
       ]
     },
     {
-      "name": "Nat Geo HD",
+      "name": "ন্যাশনাল জিওগ্রাফিক এইচডি",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/natgeo.png",
       "sources": [
@@ -1668,7 +1668,7 @@
       ]
     },
     {
-      "name": "Nat Geo Wild",
+      "name": "ন্যাশনাল জিওগ্রাফিক ওয়াইল্ড",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wild.png",
       "sources": [
@@ -1691,7 +1691,7 @@
       ]
     },
     {
-      "name": "Animal Planet HD",
+      "name": "এনিম্যাল প্লেনেট এইচডি",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/animal.png",
       "sources": [
@@ -1734,7 +1734,7 @@
       ]
     },
     {
-      "name": "BBC Earth HD",
+      "name": "সনি বিবিসি আর্থ এইচডি",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bbcearth.png",
       "sources": [
@@ -1765,7 +1765,7 @@
       ]
     },
     {
-      "name": "TLC HD",
+      "name": "টিএলসি এইচডি",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tlc.png",
       "sources": [
@@ -1792,7 +1792,7 @@
       ]
     },
     {
-      "name": "Nick",
+      "name": "নিকেলোডিয়ন",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/nick.png",
       "sources": [
@@ -1815,7 +1815,7 @@
       ]
     },
     {
-      "name": "Cartoon Network",
+      "name": "কার্টুন নেটওয়ার্ক",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cn.png",
       "sources": [
@@ -1854,7 +1854,7 @@
       ]
     },
     {
-      "name": "Pogo",
+      "name": "পোগো",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/pogo.png",
       "sources": [
@@ -1885,7 +1885,7 @@
       ]
     },
     {
-      "name": "Discovery Kids",
+      "name": "ডিসকোভারি কিডস্",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dkids.png",
       "sources": [
@@ -1912,7 +1912,7 @@
       ]
     },
     {
-      "name": "Sony Yay",
+      "name": "সনি ইয়েহ!",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/yay.png",
       "sources": [
@@ -1935,7 +1935,7 @@
       ]
     },
     {
-      "name": "Motu Patlu",
+      "name": "মোটু পাতলু",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/motu.png",
       "sources": [
@@ -1946,7 +1946,7 @@
       ]
     },
     {
-      "name": "Gopal Bhar",
+      "name": "গোপাল ভাঁড়",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gopal.png",
       "sources": [
@@ -1957,7 +1957,7 @@
       ]
     },
     {
-      "name": "9XM",
+      "name": "নাইন এক্স এম",
       "category": "Music",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/9xm.png",
       "sources": [
@@ -1988,7 +1988,7 @@
       ]
     },
     {
-      "name": "Sangeet Bangla",
+      "name": "সঙ্গীত বাংলা",
       "category": "Music",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sangeet.png",
       "sources": [
@@ -2015,7 +2015,7 @@
       ]
     },
     {
-      "name": "Gaan Bangla",
+      "name": "গান বাংলা",
       "category": "Music",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gb.png",
       "sources": [
@@ -2030,7 +2030,7 @@
       ]
     },
     {
-      "name": "B4U Music",
+      "name": "বি ফোর ইউ মিউজিক",
       "category": "Music",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/b4umusic.png",
       "sources": [
@@ -2049,7 +2049,7 @@
       ]
     },
     {
-      "name": "Al Jazeera",
+      "name": "আল জাজিরা",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/al.png",
       "sources": [
@@ -2080,7 +2080,7 @@
       ]
     },
     {
-      "name": "CNN",
+      "name": "সিএনএন",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cnn.png",
       "sources": [
@@ -2103,7 +2103,7 @@
       ]
     },
     {
-      "name": "BBC World",
+      "name": "বিবিসি ওয়ার্ল্ড",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bbc.png",
       "sources": [
@@ -2130,7 +2130,7 @@
       ]
     },
     {
-      "name": "DW News HD",
+      "name": "ডয়েচে ভেলে ওয়ার্ল্ড এইচডি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dw.png",
       "sources": [
@@ -2145,7 +2145,7 @@
       ]
     },
     {
-      "name": "Hum TV",
+      "name": "হাম টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/humtv.png",
       "sources": [
@@ -2221,7 +2221,7 @@
       ]
     },
     {
-      "name": "T Sports HD",
+      "name": "টি স্পোর্টস এইচডি",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tsports.png",
       "sources": [
@@ -2272,7 +2272,7 @@
       ]
     },
     {
-      "name": "Gazi TV",
+      "name": "গাজি টিভি-জিটিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gtv.png",
       "sources": [
@@ -2311,7 +2311,7 @@
       ]
     },
     {
-      "name": "Star Sports 1 HD",
+      "name": "স্টার স্পোর্টস এইচডি ওয়ান",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starsports.png",
       "sources": [
@@ -2346,7 +2346,7 @@
       ]
     },
     {
-      "name": "Star Sports 2",
+      "name": "স্টার স্পোর্টস এইচডি টু",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starsports.png",
       "sources": [
@@ -2373,7 +2373,7 @@
       ]
     },
     {
-      "name": "Sony Ten 1",
+      "name": "সনি টেন ওয়ান",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
       "sources": [
@@ -2408,7 +2408,7 @@
       ]
     },
     {
-      "name": "Sony Ten 2",
+      "name": "সনি টেন টু",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
       "sources": [
@@ -2439,7 +2439,7 @@
       ]
     },
     {
-      "name": "Sony Ten 3",
+      "name": "সনি টেন থ্রি",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
       "sources": [
@@ -2466,7 +2466,7 @@
       ]
     },
     {
-      "name": "PTV Sports",
+      "name": "পিটিভি স্পোর্টস",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ptv.png",
       "sources": [
@@ -2501,7 +2501,7 @@
       ]
     },
     {
-      "name": "Bein Sports",
+      "name": "বেইন স্পোর্টস",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bein.png",
       "sources": [
@@ -2536,7 +2536,7 @@
       ]
     },
     {
-      "name": "A Sports HD",
+      "name": "এ স্পোর্টস এইচডি",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/a.png",
       "sources": [
@@ -2567,7 +2567,7 @@
       ]
     },
     {
-      "name": "Eurosport HD",
+      "name": "ইউরো স্পোর্টস এইচডি",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/euro.png",
       "sources": [
@@ -2594,7 +2594,7 @@
       ]
     },
     {
-      "name": "Sky Sports Cricket",
+      "name": "স্কাই স্পোর্টস ক্রিকেট",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sky.png",
       "sources": [
@@ -2613,7 +2613,7 @@
       ]
     },
     {
-      "name": "TNT Sports 1",
+      "name": "টিএনটি স্পোর্টস ওয়ান",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tnt.png",
       "sources": [
@@ -2636,7 +2636,7 @@
       ]
     },
     {
-      "name": "Live Cricket",
+      "name": "লাইভ ক্রিকেট",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/live.png",
       "sources": [
@@ -2651,7 +2651,7 @@
       ]
     },
     {
-      "name": "Live Football",
+      "name": "লাইভ ফুটবল",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/live.png",
       "sources": [
@@ -2670,7 +2670,7 @@
       ]
     },
     {
-      "name": "FIFA Plus",
+      "name": "ফিফা প্লাস",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/fifa.png",
       "sources": [
@@ -2689,7 +2689,7 @@
       ]
     },
     {
-      "name": "Ten Sports HD",
+      "name": "টেন স্পোর্টস এইচডি",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ten.png",
       "sources": [
@@ -2700,7 +2700,7 @@
       ]
     },
     {
-      "name": "Bein Sports 2",
+      "name": "বেইন স্পোর্টস টু",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bein.png",
       "sources": [
@@ -2758,7 +2758,7 @@
       ]
     },
     {
-      "name": "ট্রাভেল এক্সপি এইডি",
+      "name": "ট্রাভেল এক্সপি এইচডি",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/xp.png",
       "sources": [
