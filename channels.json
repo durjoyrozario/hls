@@ -871,7 +871,7 @@
     {
       "name": "এসএ টিভি",
       "category": "GEC",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sa.png",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/satv.png",
       "sources": [
         {
           "name": "S1",
