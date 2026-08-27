@@ -2733,6 +2733,15 @@
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wc.png",
       "sources": [
         {
+      "name": "S14",
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/manifest.mpd",
+      "type": "dash",
+      "drm": {
+        "kid": "1df83e058b864da896c9288eef63b113",
+        "key": "fc32f26239054b56aab48225305598fe"
+      }
+        },
+        {
           "name": "S1",
           "url": "http://103.89.248.130:8082/FIFA-World-Cup-Live-5/index.m3u8"
         },
