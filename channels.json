@@ -2734,7 +2734,7 @@
       "sources": [
         {
       "name": "S14",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/manifest.mpd",
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglahd/default/mainfest.mpd",
       "type": "dash",
       "drm": {
         "kid": "1df83e058b864da896c9288eef63b113",
