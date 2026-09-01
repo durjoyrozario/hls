@@ -304,7 +304,7 @@
         },
         {
           "name": "S6",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8"
+          "url": "http://172.16.200.205:8088/205/index.m3u8"
         },
         {
           "name": "S7",
@@ -355,7 +355,7 @@
         },
         {
           "name": "S7",
-          "url": "https://server.itcnbd.live/stream/channel_i.m3u8"
+          "url": "http://172.16.200.205:8088/207/index.m3u8"
         },
         {
           "name": "S8",
@@ -398,7 +398,7 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/jamuna_tv.m3u8"
+          "url": "http://172.16.200.205:8088/209/index.m3u8"
         },
         {
           "name": "S7",
@@ -919,7 +919,7 @@
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/maasranga-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/206/index.m3u8"
         },
         {
           "name": "S5",
