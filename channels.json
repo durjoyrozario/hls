@@ -133,7 +133,7 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/colors-bangla-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/304/index.m3u8"
         },
         {
           "name": "S6",
@@ -191,7 +191,7 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/sonyaath.m3u8"
+          "url": "http://172.16.200.205:8088/306/index.m3u8"
         },
         {
           "name": "S7",
@@ -1437,7 +1437,7 @@
         },
         {
           "name": "S7",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/235.m3u8"
+          "url": "http://172.16.200.205:8088/305/index.m3u8"
         }
       ]
     },
@@ -1464,7 +1464,7 @@
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/234.m3u8"
+          "url": "http://172.16.200.205:8088/303/index.m3u8"
         }
       ]
     },
