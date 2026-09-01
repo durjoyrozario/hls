@@ -160,7 +160,7 @@
         },
         {
           "name": "S4",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/231.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/96.m3u8"
         }
       ]
     },
@@ -195,7 +195,7 @@
         },
         {
           "name": "S7",
-          "url": "https://s2.itcnbd.live/sony-aat/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/267.m3u8"
         },
         {
           "name": "S8",
@@ -238,7 +238,7 @@
         },
         {
           "name": "S7",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/232.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/332.m3u8"
         }
       ]
     },
@@ -273,7 +273,7 @@
         },
         {
           "name": "S7",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/202.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/88.m3u8"
         }
       ]
     },
@@ -359,7 +359,7 @@
         },
         {
           "name": "S8",
-          "url": "https://s2.itcnbd.live/channel-i/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/52.m3u8"
         },
         {
           "name": "S9",
@@ -402,7 +402,7 @@
         },
         {
           "name": "S7",
-          "url": "https://s2.itcnbd.live/jamuna-tv/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/74.m3u8"
         },
         {
           "name": "S8",
@@ -441,7 +441,7 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/independent_tv.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/72.m3u8"
         },
         {
           "name": "S7",
@@ -507,7 +507,7 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/channel-24/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/54.m3u8"
         },
         {
           "name": "S6",
@@ -534,7 +534,7 @@
         },
         {
           "name": "S4",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/327.m3u8"
         },
         {
           "name": "S5",
@@ -565,7 +565,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/ekhon_tv.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/62.m3u8"
         },
         {
           "name": "S5",
@@ -588,7 +588,7 @@
         },
         {
           "name": "S3",
-          "url": "https://server.itcnbd.live/stream/desh_tv.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/60.m3u8"
         },
         {
           "name": "S4",
@@ -615,7 +615,7 @@
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/nagorik/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/84.m3u8"
         },
         {
           "name": "S5",
@@ -646,7 +646,7 @@
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/205.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/48.m3u8"
         }
       ]
     },
@@ -669,7 +669,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/atn_bangla.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/303.m3u8"
         },
         {
           "name": "S5",
@@ -731,7 +731,7 @@
         },
         {
           "name": "S5",
-          "url": "https://server.itcnbd.live/stream/ekattor_tv.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/64.m3u8"
         },
         {
           "name": "S6",
@@ -762,7 +762,7 @@
         },
         {
           "name": "S4",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/201.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/118.m3u8"
         }
       ]
     },
@@ -777,7 +777,7 @@
         },
         {
           "name": "S2",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/204.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/50.m3u8"
         }
       ]
     },
@@ -804,7 +804,7 @@
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/219.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/58.m3u8"
         }
       ]
     },
@@ -831,7 +831,7 @@
         },
         {
           "name": "S5",
-          "url": "https://server.itcnbd.live/stream/atn_news.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/304.m3u8"
         },
         {
           "name": "S6",
@@ -858,7 +858,7 @@
         },
         {
           "name": "S3",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/207.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/82.m3u8"
         }
       ]
     },
@@ -873,7 +873,7 @@
         },
         {
           "name": "S2",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/215.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/38.m3u8"
         }
       ]
     },
@@ -896,7 +896,7 @@
         },
         {
           "name": "S4",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/216.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/92.m3u8"
         }
       ]
     },
@@ -915,7 +915,7 @@
         },
         {
           "name": "S3",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/282.m3u8"
         },
         {
           "name": "S4",
@@ -942,7 +942,7 @@
         },
         {
           "name": "S3",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/203.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/90.m3u8"
         }
       ]
     },
@@ -1050,7 +1050,7 @@
         },
         {
           "name": "S7",
-          "url": "https://s2.itcnbd.live/sony-ent-hd/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/21.m3u8"
         },
         {
           "name": "S8",
@@ -1089,7 +1089,7 @@
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/236.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/8.m3u8"
         }
       ]
     },
@@ -1116,7 +1116,7 @@
         },
         {
           "name": "S5",
-          "url": "https://server.itcnbd.live/stream/zee_tv_hd.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/11.m3u8"
         },
         {
           "name": "S6",
@@ -1155,7 +1155,7 @@
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/239.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/1.m3u8"
         }
       ]
     },
@@ -1174,7 +1174,7 @@
         },
         {
           "name": "S3",
-          "url": "https://s2.itcnbd.live/star-bharat-hd/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/7.m3u8"
         },
         {
           "name": "S4",
@@ -1197,7 +1197,7 @@
         },
         {
           "name": "S3",
-          "url": "https://server.itcnbd.live/stream/and_tv_hd.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/19.m3u8"
         },
         {
           "name": "S4",
@@ -1224,7 +1224,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/sony_max_hd.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/5.m3u8"
         },
         {
           "name": "S5",
@@ -1247,7 +1247,7 @@
         },
         {
           "name": "S2",
-          "url": "https://server.itcnbd.live/stream/sonysab_hd.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/23.m3u8"
         },
         {
           "name": "S3",
@@ -1282,7 +1282,7 @@
         },
         {
           "name": "S6",
-          "url": "https://s2.itcnbd.live/zee-cinema-hd/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/156.m3u8"
         },
         {
           "name": "S7",
@@ -1336,7 +1336,7 @@
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/268.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/146.m3u8"
         }
       ]
     },
@@ -1363,7 +1363,7 @@
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/309.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/26.m3u8"
         }
       ]
     },
@@ -1398,7 +1398,7 @@
         },
         {
           "name": "S7",
-          "url": "https://s2.itcnbd.live/and-picturs-hd/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/203.m3u8"
         },
         {
           "name": "S8",
@@ -1413,7 +1413,7 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.5.1:8080/1234567/7654321/44.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/158.m3u8"
         },
         {
           "name": "S2",
@@ -1461,6 +1461,10 @@
         {
           "name": "S4",
           "url": "http://103.165.93.31:8095/jalshaMovies/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://172.20.5.1:8080/1234567/7654321/178.m3u8"
         },
         {
           "name": "S5",
