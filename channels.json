@@ -1046,7 +1046,7 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/sonyentertainmnt_hd.m3u8"
+          "url": "http://172.16.200.205:8088/403/index.m3u8"
         },
         {
           "name": "S7",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/star-plus-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/401/index.m3u8"
         },
         {
           "name": "S6",
@@ -1094,7 +1094,7 @@
       ]
     },
     {
-      "name": "জি বাংলা",
+      "name": "জি টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ztv.png",
       "sources": [
@@ -1151,7 +1151,7 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/colors-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/405/index.m3u8"
         },
         {
           "name": "S6",
@@ -1278,7 +1278,7 @@
         },
         {
           "name": "S5",
-          "url": "https://server.itcnbd.live/stream/zee_cinema_hd.m3u8"
+          "url": "http://172.16.200.205:8088/406/index.m3u8"
         },
         {
           "name": "S6",
@@ -1332,7 +1332,7 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/star-gold-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/402/index.m3u8"
         },
         {
           "name": "S6",
@@ -1359,7 +1359,7 @@
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/star-movies-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/501/index.m3u8"
         },
         {
           "name": "S5",
@@ -1394,7 +1394,7 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/andpicture_hd.m3u8"
+          "url": "http://172.16.200.205:8088/407/index.m3u8"
         },
         {
           "name": "S7",
@@ -1533,7 +1533,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/sonypix_hd.m3u8"
+          "url": "http://172.16.200.205:8088/503/index.m3u8"
         },
         {
           "name": "S5",
@@ -1633,7 +1633,7 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/discovery_hd.m3u8"
+          "url": "http://172.16.200.205:8088/801/index.m3u8"
         },
         {
           "name": "S7",
@@ -1691,7 +1691,7 @@
         },
         {
           "name": "S3",
-          "url": "https://s2.itcnbd.live/natgeo-wild-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/802/index.m3u8"
         },
         {
           "name": "S4",
@@ -2019,7 +2019,7 @@
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/317.m3u8"
+          "url": "http://172.16.200.205:8088/702/index.m3u8"
         }
       ]
     },
