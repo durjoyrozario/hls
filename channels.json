@@ -121,7 +121,7 @@
         },
         {
           "name": "S2",
-          "url": "http://172.21.20.222:8080/Colors-Bangla-1/index.m3u8"
+          "url": "http://172.21.20.223:8080/COLORS-BANGLA/index.m3u8"
         },
         {
           "name": "S3",
@@ -175,7 +175,7 @@
         },
         {
           "name": "S2",
-          "url": "http://172.21.20.222:8080/sony-aath/index.m3u8"
+          "url": "http://172.21.20.223:8080/sony-aath/index.m3u8"
         },
         {
           "name": "S3",
