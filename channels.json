@@ -54,7 +54,7 @@
         },
         {
           "name": "S12",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/228.m3u8"
+          "url": "http://103.165.93.31:8095/zeeBangla/index.m3u8"
         },
         {
           "name": "S13",
@@ -78,7 +78,7 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.5.1:8080/1234567/7654321/94"
+          "url": "http://103.165.93.31:8095/starJalsha/index.m3u8"
         },
         {
           "name": "S2",
@@ -137,7 +137,7 @@
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/229.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBangla/index.m3u8"
         }
       ]
     },
@@ -203,7 +203,7 @@
         },
         {
           "name": "S9",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/230.m3u8"
+          "url": "http://103.165.93.31:8095/sonyAath/index.m3u8"
         }
       ]
     },
@@ -226,7 +226,7 @@
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/enterr-10/index.m3u8"
+          "url": "http://103.165.93.31:8095/enter10Bangla/index.m3u8"
         },
         {
           "name": "S5",
@@ -265,7 +265,7 @@
         },
         {
           "name": "S5",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8"
+          "url": "http://103.165.93.31:8095/ntv/index.m3u8"
         },
         {
           "name": "S6",
@@ -351,7 +351,7 @@
         },
         {
           "name": "S6",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8"
+          "url": "http://103.165.93.31:8095/channelI/index.m3u8"
         },
         {
           "name": "S7",
@@ -542,7 +542,7 @@
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/218.m3u8"
+          "url": "http://103.165.93.31:8095/deepto/index.m3u8"
         }
       ]
     },
@@ -923,7 +923,7 @@
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/226.m3u8"
+          "url": "http://103.165.93.31:8095/maasranga/index.m3u8"
         }
       ]
     },
@@ -1429,7 +1429,7 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/zee-bangla-cinema/index.m3u8"
+          "url": "http://103.165.93.31:8095/zeeBanglaCinema/index.m3u8"
         },
         {
           "name": "S6",
@@ -1460,7 +1460,7 @@
         },
         {
           "name": "S4",
-          "url": "http://172.20.5.1:80/webplayer/webplayer/383.m3u8"
+          "url": "http://103.165.93.31:8095/jalshaMovies/index.m3u8"
         },
         {
           "name": "S5",
@@ -1483,7 +1483,7 @@
         },
         {
           "name": "S3",
-          "url": "https://s2.itcnbd.live/colors-bangla-cinema/index.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         }
       ]
     },
@@ -1613,7 +1613,7 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/Discovery/index.m3u8"
+          "url": "http://103.165.93.31:8095/discovery/index.m3u8"
         },
         {
           "name": "S2",
@@ -1668,7 +1668,7 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/natgeo-hd/index.m3u8"
+          "url": "http://103.165.93.31:8095/nationalGeographic/index.m3u8"
         },
         {
           "name": "S6",
@@ -1726,7 +1726,7 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/animal_planet_hd.m3u8"
+          "url": "http://103.165.93.31:8095/animalPlanet/index.m3u8"
         },
         {
           "name": "S7",
@@ -1818,6 +1818,10 @@
           "url": "http://172.21.20.223:8080/NICK/index.m3u8"
         },
         {
+          "name": "S3",
+          "url": "http://103.165.93.31:8095/nick/index.m3u8"
+        },
+        {
           "name": "S4",
           "url": "http://172.16.200.205:8088/601/index.m3u8"
         }
@@ -1881,7 +1885,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/pogo_sd.m3u8"
+          "url": "http://103.165.93.31:8095/pogo/index.m3u8"
         },
         {
           "name": "S5",
@@ -1935,7 +1939,7 @@
         },
         {
           "name": "S3",
-          "url": "https://server.itcnbd.live/stream/sonyyay.m3u8"
+          "url": "http://103.165.93.31:8095/sonyYay/index.m3u8"
         },
         {
           "name": "S4",
