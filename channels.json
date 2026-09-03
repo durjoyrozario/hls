@@ -22,7 +22,7 @@
         },
         {
           "name": "S4",
-          "url": "http://172.20.5.1:8080/1234567/7654321/102.ts"
+          "url": "http://172.19.17.34:8080/play/JmU-3pCgErAiWP5dU8MsAy9mrQAGyOTfgp9R9hpne8Q/ts"
         },
         {
           "name": "S5",
@@ -179,7 +179,7 @@
         },
         {
           "name": "S3",
-          "url": "http://172.16.29.2:8090/hls/SonyAtth.m3u8"
+          "url": "http://172.19.17.34:8080/play/JmU-3pCgErAiWP5dU8MsA595745osKlbo3vct4GMVCo/ts"
         },
         {
           "name": "S4",
@@ -1425,7 +1425,7 @@
         },
         {
           "name": "S4",
-          "url": "http://172.19.17.4:8090/hls/ZeeBanglaCinemaHD.m3u8"
+          "url": "http://172.19.17.34:8080/play/JmU-3pCgErAiWP5dU8MsA-blarsl85faesqTz0k4Ctw/ts"
         },
         {
           "name": "S5",
