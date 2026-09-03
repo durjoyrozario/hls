@@ -2844,6 +2844,33 @@
           "url": "https://flv.intechmedia.net/live/ch113.m3u8"
         }
       ]
-    }
+    },
+    {
+      "name": "জি বাংলা",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gopal.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.19.17.34:80/live/ontest1/ontest1/32.m3u8"
+        }
+      ]
+    },
+    {
+    "name": "ফিফা বিশ্বকাপ ২০২৬",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wc.png",
+      "sources": [
+   {
+      "name": "S14",
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/mainfest.mpd",
+      "type": "dash",
+      "drm": {
+        "kid": "1df83e058b864da896c9288eef63b113",
+        "key": "fc32f26239054b56aab48225305598fe"
+      }
+        }
+      ]
+    } 
   ]
 }
