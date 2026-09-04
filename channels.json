@@ -208,6 +208,130 @@
       ]
     },
     {
+      "name": "& পিকচার্স এইচডি",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&picture.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/andpictures/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/AndPictureHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/and-picture-HD/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/andpictureHD/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://172.16.200.205:8088/407/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "http://172.20.5.1:8080/1234567/7654321/203.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/245.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "জি বাংলাসোনার",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zbs.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.5.1:8080/1234567/7654321/158.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.19.17.139:8090/hls/ZeeBanglaCinemaHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/ZEE-BANGLA-CINEMA/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://172.19.17.34:8080/play/JmU-3pCgErAiWP5dU8MsA-blarsl85faesqTz0k4Ctw/ts"
+        },
+        {
+          "name": "S5",
+          "url": "http://103.165.93.31:8095/zeeBanglaCinema/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://27.124.71.27/Zee_Bangla_Cinema/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "http://172.16.200.205:8088/305/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "জলসা মুভিজ এইচডি",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jm.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.19.17.34:80/play/JmU-3pCgErAiWP5dU8MsA0bq5rYTiyJWOLa9MO2ZnMQ/ts"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.19.17.4:8090/hls/JalshaMoviesHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/JALSHA-MOVIES/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.165.93.31:8095/jalshaMovies/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://172.20.5.1:8080/1234567/7654321/178.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://172.16.200.205:8088/303/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "কালার্স বাংলা সিনেমা",
+      "category": "Movies",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cbc.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/COLORS-BANGLA-CINEMA/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/COLORS-BANGLA-CINEMA/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
+        }
+      ]
+    },
+    {
       "name": "এন্টারটেইন বাংলা",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/eb.png",
@@ -1366,131 +1490,7 @@
           "url": "http://172.20.5.1:8080/1234567/7654321/26.m3u8"
         }
       ]
-    },
-    {
-      "name": "& পিকচার্স এইচডি",
-      "category": "Movies",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&picture.png",
-      "sources": [
-        {
-          "name": "S1",
-          "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8"
-        },
-        {
-          "name": "S2",
-          "url": "http://172.21.20.222:8080/andpictures/index.m3u8"
-        },
-        {
-          "name": "S3",
-          "url": "http://172.16.29.2:8090/hls/AndPictureHD.m3u8"
-        },
-        {
-          "name": "S4",
-          "url": "http://103.89.248.130:8082/and-picture-HD/index.m3u8"
-        },
-        {
-          "name": "S5",
-          "url": "http://cdn.moviemazic.xyz:8083/andpictureHD/index.m3u8"
-        },
-        {
-          "name": "S6",
-          "url": "http://172.16.200.205:8088/407/index.m3u8"
-        },
-        {
-          "name": "S7",
-          "url": "http://172.20.5.1:8080/1234567/7654321/203.m3u8"
-        },
-        {
-          "name": "S8",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/245.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "জি বাংলাসোনার",
-      "category": "Movies",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zbs.png",
-      "sources": [
-        {
-          "name": "S1",
-          "url": "http://172.20.5.1:8080/1234567/7654321/158.m3u8"
-        },
-        {
-          "name": "S2",
-          "url": "http://172.19.17.139:8090/hls/ZeeBanglaCinemaHD.m3u8"
-        },
-        {
-          "name": "S3",
-          "url": "http://103.89.248.130:8082/ZEE-BANGLA-CINEMA/index.m3u8"
-        },
-        {
-          "name": "S4",
-          "url": "http://172.19.17.34:8080/play/JmU-3pCgErAiWP5dU8MsA-blarsl85faesqTz0k4Ctw/ts"
-        },
-        {
-          "name": "S5",
-          "url": "http://103.165.93.31:8095/zeeBanglaCinema/index.m3u8"
-        },
-        {
-          "name": "S6",
-          "url": "http://27.124.71.27/Zee_Bangla_Cinema/index.m3u8"
-        },
-        {
-          "name": "S7",
-          "url": "http://172.16.200.205:8088/305/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "জলসা মুভিজ এইচডি",
-      "category": "Movies",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jm.png",
-      "sources": [
-        {
-          "name": "S1",
-          "url": "http://172.19.17.34:80/play/JmU-3pCgErAiWP5dU8MsA0bq5rYTiyJWOLa9MO2ZnMQ/ts"
-        },
-        {
-          "name": "S2",
-          "url": "http://172.19.17.4:8090/hls/JalshaMoviesHD.m3u8"
-        },
-        {
-          "name": "S3",
-          "url": "http://103.89.248.130:8082/JALSHA-MOVIES/index.m3u8"
-        },
-        {
-          "name": "S4",
-          "url": "http://103.165.93.31:8095/jalshaMovies/index.m3u8"
-        },
-        {
-          "name": "S4",
-          "url": "http://172.20.5.1:8080/1234567/7654321/178.m3u8"
-        },
-        {
-          "name": "S5",
-          "url": "http://172.16.200.205:8088/303/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "কালার্স বাংলা সিনেমা",
-      "category": "Movies",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cbc.png",
-      "sources": [
-        {
-          "name": "S1",
-          "url": "http://172.20.3.1:3255/COLORS-BANGLA-CINEMA/index.m3u8"
-        },
-        {
-          "name": "S2",
-          "url": "http://103.89.248.130:8082/COLORS-BANGLA-CINEMA/index.m3u8"
-        },
-        {
-          "name": "S3",
-          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
-        }
-      ]
-    },
+    },     
     {
       "name": "কালার্স সিনেপ্লেক্স এইচডি",
       "category": "Movies",
