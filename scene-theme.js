@@ -41,7 +41,7 @@
     sunrise:        { src: IMAGE_BASE + 'sunrise.png',        position: 'left bottom',  fit: 'contain' },
     day:            { src: IMAGE_BASE + 'day.png',            position: 'left bottom',  fit: 'contain' },
     sunset:         { src: IMAGE_BASE + 'sunset.png',         position: 'left bottom',  fit: 'contain' },
-    night:          { src: IMAGE_BASE + 'night.png',          position: 'left bottom',  fit: 'contain' },
+    night:          { src: IMAGE_BASE + 'sunrise.png',          position: 'left bottom',  fit: 'contain' },
 
     // ---- festivals ----
     christmas:      { src: IMAGE_BASE + 'christmas.png',      position: 'left bottom',  fit: 'contain' },
