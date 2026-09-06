@@ -410,7 +410,7 @@
   ========================================================================= */
   var FESTIVAL_WINDOWS = [
     // key            start (YYYY-MM-DD)   end (YYYY-MM-DD, inclusive)
-    { key: 'christmas',     start: null,          end: null, recurringMD: ['09-24', '12-26'] },
+    { key: 'christmas',     start: null,          end: null, recurringMD: ['09-05', '12-26'] },
     { key: 'eid',           start: '2026-03-19',  end: '2026-03-20' },  // Eid-ul-Fitr (approx — confirm via moon sighting)
     { key: 'durgapuja',     start: '2026-10-16',  end: '2026-10-22' },  // Shashthi–Dashami (approx)
     { key: 'easter',        start: '2026-04-05',  end: '2026-04-05' },
