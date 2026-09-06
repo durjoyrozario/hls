@@ -41,7 +41,7 @@
     sunrise:        { src: IMAGE_BASE + 'sunrise.png',        position: 'left bottom',  fit: 'contain' },
     day:            { src: IMAGE_BASE + 'day.png',            position: 'left bottom',  fit: 'contain' },
     sunset:         { src: IMAGE_BASE + 'sunset.png',         position: 'left bottom',  fit: 'contain' },
-    night:          { src: IMAGE_BASE + 'sunrise.png',          position: 'left bottom',  fit: 'contain' },
+    night:          { src: IMAGE_BASE + 'night.png',          position: 'left bottom',  fit: 'contain' },
 
     // ---- festivals ----
     christmas:      { src: IMAGE_BASE + 'christmas.png',      position: 'left bottom',  fit: 'contain' },
@@ -61,7 +61,7 @@
   ========================================================================= */
   var FESTIVAL_WINDOWS = [
     // key            start (YYYY-MM-DD)   end (YYYY-MM-DD, inclusive)
-    { key: 'christmas',     start: null,          end: null, recurringMD: ['12-23', '12-26'] },
+    { key: 'christmas',     start: null,          end: null, recurringMD: ['09-05', '12-26'] },
     { key: 'eid',           start: '2026-03-19',  end: '2026-03-20' },  // Eid-ul-Fitr (approx — confirm via moon sighting)
     { key: 'durgapuja',     start: '2026-10-16',  end: '2026-10-22' },  // Shashthi–Dashami (approx)
     { key: 'easter',        start: '2026-04-05',  end: '2026-04-05' },
@@ -115,8 +115,13 @@
     if (layers && layers.a.parentNode === container) return layers;
 
     container.innerHTML = '';
-    container.style.position = container.style.position || 'relative';
-    container.style.overflow = container.style.overflow || 'hidden';
+    // Respect whatever position/overflow the page's own CSS already set
+    // (e.g. #osdSceneBg is position:absolute; inset:0; overflow:hidden
+    // in the OSD stylesheet) — only fill in a sane default if truly unset,
+    // otherwise this would collapse the container to 0x0 and hide the image.
+    var computed = window.getComputedStyle(container);
+    if (computed.position === 'static') container.style.position = 'relative';
+    if (computed.overflow === 'visible') container.style.overflow = 'hidden';
 
     var a = document.createElement('img');
     var b = document.createElement('img');
