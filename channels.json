@@ -2201,6 +2201,14 @@
       "logo": "",
       "sources": [
         {
+          "name": "Akash Worker (MPD)",
+          "url": "https://tv2.workerbot4.workers.dev/live/143.mpd",
+          "type": "dash",
+          "headers": {
+            "x-akash-secret": "hady_web_secure_2026"
+          }
+        },
+        {
           "name": "S1",
           "url": "http://172.20.3.1:3255/MedinawithLive1MedinawithLive/index.m3u8"
         }
