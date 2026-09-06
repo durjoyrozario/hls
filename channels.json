@@ -2853,6 +2853,20 @@
       ]
     },
     {
+      "name": "আকাশ স্পোর্টস ১",
+      "category": "Sports",
+      "logo": "https://example.com/logo/akash_sports.png",
+      "sources": [
+        {
+          "name": "S1 (Akash Widevine)",
+          "url": "https://tv2.workerbot4.workers.dev/live/143.mpd",
+          "type": "dash",
+          "licenseUrl": "https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=8f95c9cd-6940&ls_session=...",
+          "secretHeader": "hady_web_secure_2026"
+        }
+      ]
+    }
+    {
     "name": "জি বাংলা DRM",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wc.png",
