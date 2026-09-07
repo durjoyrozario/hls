@@ -19,6 +19,9 @@
         fit       - CSS object-fit ('contain' keeps the picture from
                     stretching / filling the whole box; use 'cover' only
                     if an image is meant to fill the frame)
+        opacity   - optional 0–1 value for how strong the image shows.
+                    Falls back to DEFAULT_OPACITY below if omitted, so you
+                    can dial brightness per-scene or all at once.
    3. Recommended image size: match the old viewBox aspect ratio,
       480 x 150 (or any multiple of it), transparent PNG/WEBP.
    -------------------------------------------------------------------------
@@ -31,6 +34,11 @@
 
   // Change this to wherever your scene images live (folder or CDN URL).
   var IMAGE_BASE = 'https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/banner/';
+
+  // Global default opacity for every scene image (0 = invisible, 1 = full
+  // strength). Override per-scene below with an "opacity" field if a
+  // particular image needs to be lighter/darker than the rest.
+  var DEFAULT_OPACITY = 0.55;
 
   /* =========================================================================
      SCENE IMAGE CONFIG
@@ -134,9 +142,13 @@
       img.style.height = '100%';
       img.style.transition = 'opacity 600ms ease';
       img.style.pointerEvents = 'none';
+      // dataset holds the scene's *target* opacity (its "fully shown"
+      // strength); actual style.opacity is animated between 0 and this
+      // value during crossfade, see applyImage()/render() below.
+      img.dataset.targetOpacity = '1';
       container.appendChild(img);
     });
-    a.style.opacity = '1';
+    a.style.opacity = '0';
     b.style.opacity = '0';
 
     layers = { a: a, b: b, activeIsA: true };
@@ -147,6 +159,8 @@
     img.src = cfg.src;
     img.style.objectFit = cfg.fit || 'contain';
     img.style.objectPosition = cfg.position || 'center';
+    var targetOpacity = (cfg.opacity == null) ? DEFAULT_OPACITY : cfg.opacity;
+    img.dataset.targetOpacity = String(targetOpacity);
   }
 
   function render(force, overrideKey) {
@@ -164,7 +178,10 @@
     var outgoing = L.activeIsA ? L.a : L.b;
 
     applyImage(incoming, cfg);
-    incoming.style.opacity = '1';
+    // Fade the new image in up to its configured strength, and fade the
+    // old one out to 0 — this is what makes the "opacity" setting above
+    // actually control how strong the art looks at rest.
+    incoming.style.opacity = incoming.dataset.targetOpacity;
     outgoing.style.opacity = '0';
 
     L.activeIsA = !L.activeIsA;
