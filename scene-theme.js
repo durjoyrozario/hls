@@ -38,7 +38,7 @@
   // Global default opacity for every scene image (0 = invisible, 1 = full
   // strength). Override per-scene below with an "opacity" field if a
   // particular image needs to be lighter/darker than the rest.
-  var DEFAULT_OPACITY = 0.55;
+  var DEFAULT_OPACITY = 0.75;
 
   /* =========================================================================
      SCENE IMAGE CONFIG
