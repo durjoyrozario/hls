@@ -71,9 +71,9 @@
     // key            start (YYYY-MM-DD)   end (YYYY-MM-DD, inclusive)
     { key: 'christmas',     start: null,          end: null, recurringMD: ['12-23', '12-26'] },
     { key: 'eid',           start: '2026-03-19',  end: '2026-03-20' },  // Eid-ul-Fitr (approx — confirm via moon sighting)
-    { key: 'durgapuja',     start: '2026-10-16',  end: '2026-10-22' },  // Shashthi–Dashami (approx)
+    { key: 'durgapuja',     start: '2026-10-15',  end: '2026-10-22' },  // Shashthi–Dashami (approx)
     { key: 'easter',        start: '2026-04-05',  end: '2026-04-05' },
-    { key: 'buddhapurnima', start: '2026-09-01',  end: '2026-10-01' }
+    { key: 'buddhapurnima', start: '2027-05-19',  end: '2027-05-20' }
   ];
 
   function toDateOnly(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
@@ -96,8 +96,8 @@
 
   function timeOfDayKey(now) {
     var h = now.getHours() + now.getMinutes() / 60;
-    if (h >= 5 && h < 10.5) return 'sunrise';
-    if (h >= 10.5 && h < 17) return 'day';
+    if (h >= 5 && h < 7.5) return 'sunrise';
+    if (h >= 7.5 && h < 17) return 'day';
     if (h >= 17 && h < 19) return 'sunset';
     return 'night';
   }
