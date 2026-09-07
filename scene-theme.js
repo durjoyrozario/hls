@@ -65,7 +65,7 @@
     { key: 'eid',           start: '2026-03-19',  end: '2026-03-20' },  // Eid-ul-Fitr (approx — confirm via moon sighting)
     { key: 'durgapuja',     start: '2026-10-16',  end: '2026-10-22' },  // Shashthi–Dashami (approx)
     { key: 'easter',        start: '2026-04-05',  end: '2026-04-05' },
-    { key: 'buddhapurnima', start: '2026-05-01',  end: '2026-05-01' }
+    { key: 'buddhapurnima', start: '2026-09-01',  end: '2026-10-01' }
   ];
 
   function toDateOnly(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
