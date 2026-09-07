@@ -88,8 +88,8 @@
 
   function timeOfDayKey(now) {
     var h = now.getHours() + now.getMinutes() / 60;
-    if (h >= 5 && h < 7.5) return 'sunrise';
-    if (h >= 7.5 && h < 17) return 'day';
+    if (h >= 5 && h < 10.5) return 'sunrise';
+    if (h >= 10.5 && h < 17) return 'day';
     if (h >= 17 && h < 19) return 'sunset';
     return 'night';
   }
