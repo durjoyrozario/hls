@@ -2813,6 +2813,7 @@
     {
       "name": "ইউনাইটএইট স্পোর্টস এইচডি",
       "category": "Sports",
+      "epgId": "404001",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/u8.png",
       "sources": [
         {
