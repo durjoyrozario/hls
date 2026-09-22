@@ -200,6 +200,7 @@
     {
       "name": "& পিকচার্স এইচডি",
       "category": "Movies",
+      "epgId": "543096",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&picture.png",
       "sources": [
         {
