@@ -1,0 +1,12 @@
+{
+  "_readme": "Key = channel's NAME exactly as it appears in your channel list JSON's 'name' field — same script, same spelling, same spacing/case. If your channel source writes it in Bangla script (e.g. 'কালার্স বাংলা'), use that exact Bangla text as the key here, NOT an English version. Inside each channel: key = the EXACT raw title as it appears in the XMLTV feed, value = the Bangla text you want shown instead. Any title not listed here falls back to showing the raw XMLTV title as-is.",
+
+  "কালার্স বাংলা": {
+    "Bishsho Bose Bangla": "বিশ্ব বসে বাংলা"
+  },
+
+  "জি বাংলা এইচডি": {
+    "Joyar Bhata": "জোয়ার ভাটা",
+    "Annapurnar Lokkhira": "অন্নপূর্ণার লক্ষ্মীরা"
+  }
+}
