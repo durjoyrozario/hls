@@ -102,6 +102,7 @@
     {
       "name": "কালার্স বাংলা",
       "category": "GEC",
+      "epgId": "543469",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cb.png",
       "sources": [
         {
