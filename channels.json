@@ -8,7 +8,7 @@
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zbb.png",
       "epgId": "543504",
-      "epgId": "Zee.Bangla.in",
+      "epgId2": "Zee.Bangla.in",
       "sources": [
         {
           "name": "S1",
