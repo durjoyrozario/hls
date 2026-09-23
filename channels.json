@@ -135,6 +135,7 @@
     {
       "name": "সান বাংলা",
       "category": "GEC",
+      "epgId": "543322",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sb.png",
       "sources": [
         {
@@ -278,6 +279,7 @@
     {
       "name": "জলসা মুভিজ এইচডি",
       "category": "Movies",
+      "epgId": "543369",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jm.png",
       "sources": [
         {
@@ -309,6 +311,7 @@
     {
       "name": "কালার্স বাংলা সিনেমা",
       "category": "Movies",
+      "epgId": "543218",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cbc.png",
       "sources": [
         {
@@ -328,6 +331,7 @@
     {
       "name": "এন্টারটেইন বাংলা",
       "category": "GEC",
+      "epgId": "543030",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/eb.png",
       "sources": [
         {
