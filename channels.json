@@ -158,6 +158,7 @@
     {
       "name": "সনি আট",
       "category": "GEC",
+      "epgId": "543401",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sa.png",
       "sources": [
         {
@@ -241,6 +242,7 @@
     {
       "name": "জি বাংলাসোনার",
       "category": "Movies",
+      "epgId": "543477",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zbs.png",
       "sources": [
         {
