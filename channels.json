@@ -1805,6 +1805,7 @@
     {
       "name": "নিকেলোডিয়ন",
       "category": "Kids",
+      "epgId": "25",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/nick.png",
       "sources": [
         {
