@@ -1,0 +1,42 @@
+name: Update INTV EPG
+
+# IMPORTANT: this workflow file itself must live on the repo's DEFAULT
+# branch (e.g. main) for the cron schedule below to actually fire — GitHub
+# only reads scheduled-workflow definitions from the default branch. The
+# job below explicitly checks out the "tv" branch (where channels.json and
+# bangla-titles.json already live) and commits the scraped file there, at
+# the branch root — matching how those other files are already served via
+# raw.githubusercontent.com/.../refs/heads/tv/<file>.
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'   # every 3 hours, UTC
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the tv branch
+        uses: actions/checkout@v4
+        with:
+          ref: tv
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run scraper
+        run: python scripts/intv_epg_scraper.py
+
+      - name: Commit and push to tv branch if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add intv-epg.json
+          git diff --staged --quiet || git commit -m "Update INTV EPG data"
+          git push origin HEAD:tv
