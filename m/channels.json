@@ -4,29 +4,26 @@
   "updated": "2026-06-22",
   "channels": [
     {
-      "name": "Zee Bangla",
+      "name": "জি বাংলা এইচডি",
       "category": "GEC",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zb.png",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bg.png",
+      "epgId": "543504",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.19.17.4:8090/hls/ZeeBanglaHD.m3u8"
+          "url": "http://172.21.20.223:8080/ZEE-BANGLA/index.m3u8"
         },
         {
           "name": "S2",
-          "url": "http://27.124.71.27/Zee_Bangla/index.m3u8"
+          "url": "http://103.89.248.130:8082/zee-bangla/index.m3u8"
         },
         {
           "name": "S3",
-          "url": "http://172.20.21.22/live/funtime111/index.m3u8"
-        },
-        {
-          "name": "S4",
-          "url": "http://cdn.moviemazic.xyz:8083/Feedget/ZeeBangla_8/index.m3u8"
+          "url": "http://172.21.22.2:8080/Zeebangla-1/index.m3u8"
         },
         {
           "name": "S5",
-          "url": "http://172.16.60.2:8088/301/tracks-v1a1/mono.m3u8"
+          "url": "http://172.19.17.4:8090/hls/ZeeBanglaHD.m3u8"
         },
         {
           "name": "S6",
@@ -34,26 +31,52 @@
         },
         {
           "name": "S7",
+          "url": "http://172.19.17.139:8090/hls/ZeeBanglaHD.m3u8"
+        },
+        {
+          "name": "S9",
           "url": "http://172.16.200.205:8088/301/index.m3u8"
-        }
-      ]
-    },
+        },
+        {
+          "name": "S11",
+          "url": "https://tvsen6.aynaott.com/ZeeBangla/tracks-v1a1/mono.ts.m3u8"
+        },
+        {
+          "name": "S12",
+          "url": "http://10.247.249.10:8088/301/index.m3u8"
+        },
+        {
+          "name": "S13",
+          "url": "http://27.124.71.27/Zee_Bangla/index.m3u8"
+        },
+        {
+      "name": "S14",
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/manifest.mpd",
+      "type": "dash",
+      "drm": {
+        "kid": "1df83e058b864da896c9288eef63b113",
+        "key": "fc32f26239054b56aab48225305598fe"
+      }
+    }
+  ]
+},
     {
-      "name": "Star Jalsha",
+      "name": "স্টার জলসা",
       "category": "GEC",
+      "epgId": "542998",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sj.png",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/starjolsha/index.m3u8"
+          "url": "http://103.165.93.31:8095/starJalsha/index.m3u8"
         },
         {
           "name": "S2",
-          "url": "http://172.21.20.222:8080/Star-Jalsha-1/index.m3u8"
+          "url": "http://172.21.20.223:8080/starjalsha/index.m3u8"
         },
         {
           "name": "S3",
-          "url": "http://172.16.29.2:8090/hls/StarJalshaHD.m3u8"
+          "url": "http://172.19.17.4:8090/hls/StarJalshaHD.m3u8"
         },
         {
           "name": "S4",
@@ -65,30 +88,31 @@
         },
         {
           "name": "S6",
-          "url": "http://172.19.17.3:8090/hls/StarJalshaHD.m3u8"
+          "url": "http://172.19.17.139:8090/hls/StarJalshaHD.m3u8"
         },
         {
           "name": "S7",
-          "url": "http://138.252.31.25/Star-Jalsha/index.m3u8"
+          "url": "http://172.16.200.205:8088/302/index.m3u8"
         },
         {
           "name": "S8",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/227.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/94.m3u8"
         }
       ]
     },
     {
-      "name": "Colors Bangla",
+      "name": "কালার্স বাংলা",
       "category": "GEC",
+      "epgId": "543469",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cb.png",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.16.29.2:8090/hls/ColorsBanglaHD.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/17.m3u8"
         },
         {
           "name": "S2",
-          "url": "http://172.21.20.222:8080/Colors-Bangla-1/index.m3u8"
+          "url": "http://172.21.20.223:8080/COLORS-BANGLA/index.m3u8"
         },
         {
           "name": "S3",
@@ -100,17 +124,18 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/colors-bangla-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/304/index.m3u8"
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/229.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBangla/index.m3u8"
         }
       ]
     },
     {
-      "name": "Sun Bangla",
+      "name": "সান বাংলা",
       "category": "GEC",
+      "epgId": "543322",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sb.png",
       "sources": [
         {
@@ -127,13 +152,14 @@
         },
         {
           "name": "S4",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/231.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/96.m3u8"
         }
       ]
     },
     {
-      "name": "Sony Aath",
+      "name": "সনি আট",
       "category": "GEC",
+      "epgId": "543401",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sa.png",
       "sources": [
         {
@@ -142,11 +168,11 @@
         },
         {
           "name": "S2",
-          "url": "http://172.21.20.222:8080/sony-aath/index.m3u8"
+          "url": "http://172.21.20.223:8080/sony-aath/index.m3u8"
         },
         {
           "name": "S3",
-          "url": "http://172.16.29.2:8090/hls/SonyAtth.m3u8"
+          "url": "http://172.19.17.34:8080/play/JmU-3pCgErAiWP5dU8MsA595745osKlbo3vct4GMVCo/ts"
         },
         {
           "name": "S4",
@@ -158,11 +184,11 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/sonyaath.m3u8"
+          "url": "http://172.16.200.205:8088/306/index.m3u8"
         },
         {
           "name": "S7",
-          "url": "https://s2.itcnbd.live/sony-aat/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/267.m3u8"
         },
         {
           "name": "S8",
@@ -170,13 +196,142 @@
         },
         {
           "name": "S9",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/230.m3u8"
+          "url": "http://103.165.93.31:8095/sonyAath/index.m3u8"
         }
       ]
     },
     {
-      "name": "Enter10 Bangla",
+      "name": "& পিকচার্স এইচডি",
+      "category": "Movies",
+      "epgId": "543096",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&picture.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.21.20.222:8080/andpictures/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.16.29.2:8090/hls/AndPictureHD.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.89.248.130:8082/and-picture-HD/index.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://cdn.moviemazic.xyz:8083/andpictureHD/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://172.16.200.205:8088/407/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "http://172.20.5.1:8080/1234567/7654321/203.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "https://funtime.itcnbd.live/7654321/1234567/245.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "জি বাংলাসোনার",
+      "category": "Movies",
+      "epgId": "543477",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zbs.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.5.1:8080/1234567/7654321/158.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.19.17.139:8090/hls/ZeeBanglaCinemaHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/ZEE-BANGLA-CINEMA/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://172.19.17.34:8080/play/JmU-3pCgErAiWP5dU8MsA-blarsl85faesqTz0k4Ctw/ts"
+        },
+        {
+          "name": "S5",
+          "url": "http://103.165.93.31:8095/zeeBanglaCinema/index.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://27.124.71.27/Zee_Bangla_Cinema/index.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "http://172.16.200.205:8088/305/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "জলসা মুভিজ এইচডি",
+      "category": "Movies",
+      "epgId": "543369",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jm.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.19.17.34:80/play/JmU-3pCgErAiWP5dU8MsA0bq5rYTiyJWOLa9MO2ZnMQ/ts"
+        },
+        {
+          "name": "S2",
+          "url": "http://172.19.17.4:8090/hls/JalshaMoviesHD.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.89.248.130:8082/JALSHA-MOVIES/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://103.165.93.31:8095/jalshaMovies/index.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://172.20.5.1:8080/1234567/7654321/178.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://172.16.200.205:8088/303/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "কালার্স বাংলা সিনেমা",
+      "category": "Movies",
+      "epgId": "543218",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cbc.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.20.3.1:3255/COLORS-BANGLA-CINEMA/index.m3u8"
+        },
+        {
+          "name": "S2",
+          "url": "http://103.89.248.130:8082/COLORS-BANGLA-CINEMA/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "এন্টারটেইন বাংলা",
       "category": "GEC",
+      "epgId": "543030",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/eb.png",
       "sources": [
         {
@@ -193,7 +348,7 @@
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/enterr-10/index.m3u8"
+          "url": "http://103.165.93.31:8095/enter10Bangla/index.m3u8"
         },
         {
           "name": "S5",
@@ -205,12 +360,12 @@
         },
         {
           "name": "S7",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/232.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/332.m3u8"
         }
       ]
     },
     {
-      "name": "NTV",
+      "name": "এনটিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ntv.png",
       "sources": [
@@ -232,7 +387,7 @@
         },
         {
           "name": "S5",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8"
+          "url": "http://103.165.93.31:8095/ntv/index.m3u8"
         },
         {
           "name": "S6",
@@ -240,26 +395,26 @@
         },
         {
           "name": "S7",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/202.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/88.m3u8"
         }
       ]
     },
     {
-      "name": "Somoy TV",
+      "name": "সময় টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/somoy.png",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.19.17.3:8090/hls/somoytv.m3u8"
+          "url": "http://103.165.93.31:8095/somoyTv/index.m3u8"
         },
         {
           "name": "S2",
-          "url": "http://172.21.20.222:8080/SomoyTV/index.m3u8"
+          "url": "http://172.21.22.2:8080/FIFA-2026-S1/index.m3u8"
         },
         {
           "name": "S3",
-          "url": "http://172.16.29.2:8090/hls/somoytv.m3u8"
+          "url": "http://172.21.20.230:8080/SomoyTV/index.m3u8"
         },
         {
           "name": "S4",
@@ -271,15 +426,15 @@
         },
         {
           "name": "S6",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8"
+          "url": "http://172.16.200.205:8088/205/index.m3u8"
         },
         {
           "name": "S7",
-          "url": "http://172.19.17.3:8090/hls/somoytv.m3u8"
+          "url": "http://172.19.17.4:8090/hls/somoytv.m3u8"
         },
         {
           "name": "S8",
-          "url": "https://s2.itcnbd.live/somoy-tv/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/221.m3u8"
         },
         {
           "name": "S9",
@@ -287,12 +442,12 @@
         },
         {
           "name": "S10",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/210.m3u8"
+          "url": "http://172.16.200.205:8088/205/index.m3u8"
         }
       ]
     },
     {
-      "name": "Channel i",
+      "name": "চ্যানেল আই",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/channeli.png",
       "sources": [
@@ -318,15 +473,15 @@
         },
         {
           "name": "S6",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8"
+          "url": "http://103.165.93.31:8095/channelI/index.m3u8"
         },
         {
           "name": "S7",
-          "url": "https://server.itcnbd.live/stream/channel_i.m3u8"
+          "url": "http://172.16.200.205:8088/207/index.m3u8"
         },
         {
           "name": "S8",
-          "url": "https://s2.itcnbd.live/channel-i/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/52.m3u8"
         },
         {
           "name": "S9",
@@ -339,7 +494,7 @@
       ]
     },
     {
-      "name": "Jamuna TV",
+      "name": "যমুনা টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jamuna.png",
       "sources": [
@@ -365,11 +520,11 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/jamuna_tv.m3u8"
+          "url": "http://172.16.200.205:8088/209/index.m3u8"
         },
         {
           "name": "S7",
-          "url": "https://s2.itcnbd.live/jamuna-tv/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/74.m3u8"
         },
         {
           "name": "S8",
@@ -382,7 +537,7 @@
       ]
     },
     {
-      "name": "Independent TV",
+      "name": "ইন্ডিপেন্ডেন্ট টেলিভিশন",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/independent.png",
       "sources": [
@@ -408,7 +563,7 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/independent_tv.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/72.m3u8"
         },
         {
           "name": "S7",
@@ -425,7 +580,7 @@
       ]
     },
     {
-      "name": "News 24",
+      "name": "নিউজ টোয়েন্টিফোর",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/news24.png",
       "sources": [
@@ -452,7 +607,7 @@
       ]
     },
     {
-      "name": "Channel 24",
+      "name": "চ্যানেল টোয়েন্টিফোর",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/24.png",
       "sources": [
@@ -474,7 +629,7 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/channel-24/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/54.m3u8"
         },
         {
           "name": "S6",
@@ -483,7 +638,7 @@
       ]
     },
     {
-      "name": "Deepto TV",
+      "name": "দীপ্ত টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/deepto.png",
       "sources": [
@@ -501,7 +656,7 @@
         },
         {
           "name": "S4",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/327.m3u8"
         },
         {
           "name": "S5",
@@ -509,12 +664,12 @@
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/218.m3u8"
+          "url": "http://103.165.93.31:8095/deepto/index.m3u8"
         }
       ]
     },
     {
-      "name": "Ekhon TV",
+      "name": "এখন টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ekhon.png",
       "sources": [
@@ -532,7 +687,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/ekhon_tv.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/62.m3u8"
         },
         {
           "name": "S5",
@@ -541,7 +696,7 @@
       ]
     },
     {
-      "name": "Desh TV",
+      "name": "দেশ টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/desh.png",
       "sources": [
@@ -555,7 +710,7 @@
         },
         {
           "name": "S3",
-          "url": "https://server.itcnbd.live/stream/desh_tv.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/60.m3u8"
         },
         {
           "name": "S4",
@@ -564,7 +719,7 @@
       ]
     },
     {
-      "name": "Nagorik TV",
+      "name": "নাগরিক টিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/nagorik.png",
       "sources": [
@@ -582,7 +737,7 @@
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/nagorik/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/84.m3u8"
         },
         {
           "name": "S5",
@@ -591,7 +746,7 @@
       ]
     },
     {
-      "name": "Bangla Vision",
+      "name": "বাংলা ভিশন",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bvision.png",
       "sources": [
@@ -613,14 +768,14 @@
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/205.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/48.m3u8"
         }
       ]
     },
     {
-      "name": "ATN Bangla",
+      "name": "এটিএন বাংলা",
       "category": "GEC",
-      "logo": "atnbangla",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/atn.png",
       "sources": [
         {
           "name": "S1",
@@ -636,7 +791,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/atn_bangla.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/303.m3u8"
         },
         {
           "name": "S5",
@@ -649,7 +804,7 @@
       ]
     },
     {
-      "name": "Channel 9",
+      "name": "চ্যানেল নাইন",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/9.png",
       "sources": [
@@ -676,9 +831,9 @@
       ]
     },
     {
-      "name": "Ekattor TV",
+      "name": "একাত্তর টিভি",
       "category": "News",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/71.png",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ekattor.png",
       "sources": [
         {
           "name": "S1",
@@ -698,7 +853,7 @@
         },
         {
           "name": "S5",
-          "url": "https://server.itcnbd.live/stream/ekattor_tv.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/64.m3u8"
         },
         {
           "name": "S6",
@@ -711,7 +866,7 @@
       ]
     },
     {
-      "name": "Ekushey TV",
+      "name": "একুশে ইটিভি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/etv.png",
       "sources": [
@@ -729,12 +884,12 @@
         },
         {
           "name": "S4",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/201.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/118.m3u8"
         }
       ]
     },
     {
-      "name": "Boishakhi TV",
+      "name": "বৈশাখী টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/boi.png",
       "sources": [
@@ -744,12 +899,12 @@
         },
         {
           "name": "S2",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/204.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/50.m3u8"
         }
       ]
     },
     {
-      "name": "DBC News",
+      "name": "ডিবিসি নিউজ",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dbc.png",
       "sources": [
@@ -771,12 +926,12 @@
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/219.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/58.m3u8"
         }
       ]
     },
     {
-      "name": "ATN News",
+      "name": " এটিএন নিউজ",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/atnnews.png",
       "sources": [
@@ -798,7 +953,7 @@
         },
         {
           "name": "S5",
-          "url": "https://server.itcnbd.live/stream/atn_news.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/304.m3u8"
         },
         {
           "name": "S6",
@@ -811,7 +966,7 @@
       ]
     },
     {
-      "name": "My TV",
+      "name": "মাই টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/my.png",
       "sources": [
@@ -825,12 +980,12 @@
         },
         {
           "name": "S3",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/207.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/82.m3u8"
         }
       ]
     },
     {
-      "name": "Asian TV",
+      "name": "এশিয়ান টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/asian.png",
       "sources": [
@@ -840,14 +995,14 @@
         },
         {
           "name": "S2",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/215.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/38.m3u8"
         }
       ]
     },
     {
-      "name": "SA TV",
+      "name": "এসএ টিভি",
       "category": "GEC",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sa.png",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/satv.png",
       "sources": [
         {
           "name": "S1",
@@ -863,12 +1018,12 @@
         },
         {
           "name": "S4",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/216.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/92.m3u8"
         }
       ]
     },
     {
-      "name": "Maasranga TV",
+      "name": "মাছরাঙা টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/mach.png",
       "sources": [
@@ -882,20 +1037,20 @@
         },
         {
           "name": "S3",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/282.m3u8"
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/maasranga-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/206/index.m3u8"
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/226.m3u8"
+          "url": "http://103.165.93.31:8095/maasranga/index.m3u8"
         }
       ]
     },
     {
-      "name": "RTV",
+      "name": "আর টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/rtv.png",
       "sources": [
@@ -909,18 +1064,18 @@
         },
         {
           "name": "S3",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/203.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/90.m3u8"
         }
       ]
     },
     {
-      "name": "BTV",
+      "name": "বিটিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/btv.png",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.19.17.3:8090/hls/BTVNationalHD.m3u8"
+          "url": "http://cdn.moviemazic.xyz:8083/BTV-National/tracks-v1a1/mono.m3u8"
         },
         {
           "name": "S2",
@@ -928,16 +1083,36 @@
         },
         {
           "name": "S3",
-          "url": "http://138.252.31.25/BTV/index.m3u8"
+          "url": "http://103.165.93.31:8095/btv/index.m3u8"
         },
         {
           "name": "S4",
-          "url": "http://172.19.17.3:8090/hls/BTVNationalHD.m3u8"
+          "url": "http://103.165.93.31:8095/btv/video.m3u8"
+        },
+        {
+          "name": "S4",
+          "url": "http://172.19.17.139:8090/hls/BTVNationalHD.m3u8"
+        },
+        {
+          "name": "S5",
+          "url": "http://172.19.17.4:8090/hls/BTVNationalHD.m3u8"
+        },
+        {
+          "name": "S6",
+          "url": "http://172.20.5.1:8080/1234567/7654321/32.m3u8"
+        },
+        {
+          "name": "S7",
+          "url": "http://172.20.5.1:8080/1234567/7654321/269.m3u8"
+        },
+        {
+          "name": "S8",
+          "url": "http://172.20.5.1:80/webplayer/webplayer/394.m3u8"
         }
       ]
     },
     {
-      "name": "ETV",
+      "name": "একুশে ইটিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/etv.png",
       "sources": [
@@ -948,7 +1123,7 @@
       ]
     },
     {
-      "name": "Global TV",
+      "name": "গ্লোবাল টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/global.png",
       "sources": [
@@ -967,7 +1142,7 @@
       ]
     },
     {
-      "name": "Sony TV",
+      "name": "সনি এন্টারটেইনমেন্ট টেলিভিশন",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/set.png",
       "sources": [
@@ -993,11 +1168,11 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/sonyentertainmnt_hd.m3u8"
+          "url": "http://172.16.200.205:8088/403/index.m3u8"
         },
         {
           "name": "S7",
-          "url": "https://s2.itcnbd.live/sony-ent-hd/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/21.m3u8"
         },
         {
           "name": "S8",
@@ -1010,7 +1185,7 @@
       ]
     },
     {
-      "name": "Star Plus",
+      "name": "স্টার প্লাস",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/plus.png",
       "sources": [
@@ -1032,16 +1207,16 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/star-plus-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/401/index.m3u8"
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/236.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/8.m3u8"
         }
       ]
     },
     {
-      "name": "Zee TV",
+      "name": "জি টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ztv.png",
       "sources": [
@@ -1063,7 +1238,7 @@
         },
         {
           "name": "S5",
-          "url": "https://server.itcnbd.live/stream/zee_tv_hd.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/11.m3u8"
         },
         {
           "name": "S6",
@@ -1076,7 +1251,7 @@
       ]
     },
     {
-      "name": "Colors HD",
+      "name": "কালার্স এইচডি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/colors.png",
       "sources": [
@@ -1098,16 +1273,16 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/colors-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/405/index.m3u8"
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/239.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/1.m3u8"
         }
       ]
     },
     {
-      "name": "Star Bharat",
+      "name": "স্টার ভারত",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bharat.png",
       "sources": [
@@ -1121,7 +1296,7 @@
         },
         {
           "name": "S3",
-          "url": "https://s2.itcnbd.live/star-bharat-hd/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/7.m3u8"
         },
         {
           "name": "S4",
@@ -1130,7 +1305,7 @@
       ]
     },
     {
-      "name": "&TV",
+      "name": "& টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&.png",
       "sources": [
@@ -1144,7 +1319,7 @@
         },
         {
           "name": "S3",
-          "url": "https://server.itcnbd.live/stream/and_tv_hd.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/19.m3u8"
         },
         {
           "name": "S4",
@@ -1153,7 +1328,7 @@
       ]
     },
     {
-      "name": "Sony Max",
+      "name": "সনি ম্যাক্স",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/max.png",
       "sources": [
@@ -1171,7 +1346,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/sony_max_hd.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/5.m3u8"
         },
         {
           "name": "S5",
@@ -1184,7 +1359,7 @@
       ]
     },
     {
-      "name": "Sony Sab",
+      "name": "সনি সাব",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sab.png",
       "sources": [
@@ -1194,7 +1369,7 @@
         },
         {
           "name": "S2",
-          "url": "https://server.itcnbd.live/stream/sonysab_hd.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/23.m3u8"
         },
         {
           "name": "S3",
@@ -1203,7 +1378,7 @@
       ]
     },
     {
-      "name": "Zee Cinema HD",
+      "name": "জি সিনেমা এইচডি",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zc.png",
       "sources": [
@@ -1225,11 +1400,11 @@
         },
         {
           "name": "S5",
-          "url": "https://server.itcnbd.live/stream/zee_cinema_hd.m3u8"
+          "url": "http://172.16.200.205:8088/406/index.m3u8"
         },
         {
           "name": "S6",
-          "url": "https://s2.itcnbd.live/zee-cinema-hd/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/156.m3u8"
         },
         {
           "name": "S7",
@@ -1238,7 +1413,7 @@
       ]
     },
     {
-      "name": "Zee Action",
+      "name": "জি অ্যাকশন",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zeeaction.png",
       "sources": [
@@ -1257,7 +1432,7 @@
       ]
     },
     {
-      "name": "Star Gold",
+      "name": "স্টার গোল্ড",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/stargold.png",
       "sources": [
@@ -1279,16 +1454,16 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/star-gold-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/402/index.m3u8"
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/268.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/146.m3u8"
         }
       ]
     },
     {
-      "name": "Star Movies",
+      "name": "স্টার মুভিজ",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starmovies.png",
       "sources": [
@@ -1306,163 +1481,43 @@
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/star-movies-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/501/index.m3u8"
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/309.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/26.m3u8"
         }
       ]
-    },
+    },     
     {
-      "name": "&Pictures HD",
-      "category": "Movies",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/&picture.png",
-      "sources": [
-        {
-          "name": "S1",
-          "url": "http://172.20.3.1:3255/&PicturesHD/index.m3u8"
-        },
-        {
-          "name": "S2",
-          "url": "http://172.21.20.222:8080/andpictures/index.m3u8"
-        },
-        {
-          "name": "S3",
-          "url": "http://172.16.29.2:8090/hls/AndPictureHD.m3u8"
-        },
-        {
-          "name": "S4",
-          "url": "http://103.89.248.130:8082/and-picture-HD/index.m3u8"
-        },
-        {
-          "name": "S5",
-          "url": "http://cdn.moviemazic.xyz:8083/andpictureHD/index.m3u8"
-        },
-        {
-          "name": "S6",
-          "url": "https://server.itcnbd.live/stream/andpicture_hd.m3u8"
-        },
-        {
-          "name": "S7",
-          "url": "https://s2.itcnbd.live/and-picturs-hd/index.m3u8"
-        },
-        {
-          "name": "S8",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/245.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "Zee BanglaSonar",
-      "category": "Movies",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/zbs.png",
-      "sources": [
-        {
-          "name": "S1",
-          "url": "http://172.20.3.1:3255/ZeeBanglaCinema/index.m3u8"
-        },
-        {
-          "name": "S2",
-          "url": "http://172.16.29.2:8090/hls/ZeeBanglaCinemaHD.m3u8"
-        },
-        {
-          "name": "S3",
-          "url": "http://103.89.248.130:8082/ZEE-BANGLA-CINEMA/index.m3u8"
-        },
-        {
-          "name": "S4",
-          "url": "https://server.itcnbd.live/stream/zee_bangla_cinema.m3u8"
-        },
-        {
-          "name": "S5",
-          "url": "https://s2.itcnbd.live/zee-bangla-cinema/index.m3u8"
-        },
-        {
-          "name": "S6",
-          "url": "http://27.124.71.27/Zee_Bangla_Cinema/index.m3u8"
-        },
-        {
-          "name": "S7",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/235.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "Jalsha Movies HD",
-      "category": "Movies",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/jm.png",
-      "sources": [
-        {
-          "name": "S1",
-          "url": "http://172.20.3.1:3255/JALSHA-MOVIES-HD/index.m3u8"
-        },
-        {
-          "name": "S2",
-          "url": "http://172.16.29.2:8090/hls/JalshaMoviesHD.m3u8"
-        },
-        {
-          "name": "S3",
-          "url": "http://103.89.248.130:8082/JALSHA-MOVIES/index.m3u8"
-        },
-        {
-          "name": "S4",
-          "url": "https://s2.itcnbd.live/jalsha-movies-hd/index.m3u8"
-        },
-        {
-          "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/234.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "Colors Bangla Cinema",
-      "category": "Movies",
-      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cbc.png",
-      "sources": [
-        {
-          "name": "S1",
-          "url": "http://172.20.3.1:3255/COLORS-BANGLA-CINEMA/index.m3u8"
-        },
-        {
-          "name": "S2",
-          "url": "http://103.89.248.130:8082/COLORS-BANGLA-CINEMA/index.m3u8"
-        },
-        {
-          "name": "S3",
-          "url": "https://s2.itcnbd.live/colors-bangla-cinema/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "Colors Cineplex HD",
+      "name": "কালার্স সিনেপ্লেক্স এইচডি",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cineplex.png",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/COLORS-CINEPLEX-HD/index.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         },
         {
           "name": "S2",
-          "url": "http://172.16.29.2:8090/hls/ColorsCineplexHD.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         },
         {
           "name": "S3",
-          "url": "http://103.89.248.130:8082/Colors-Cineplex/index.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/colors-cineplex-hd/index.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/247.m3u8"
+          "url": "http://103.165.93.31:8095/colorsBanglaChinema/index.m3u8"
         }
       ]
     },
     {
-      "name": "Sony Pix HD",
+      "name": "সনি পিক্স এইচডি",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/pix.png",
       "sources": [
@@ -1480,7 +1535,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/sonypix_hd.m3u8"
+          "url": "http://172.16.200.205:8088/503/index.m3u8"
         },
         {
           "name": "S5",
@@ -1493,7 +1548,7 @@
       ]
     },
     {
-      "name": "HBO",
+      "name": "এইচবিও",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/hbo.png",
       "sources": [
@@ -1512,7 +1567,7 @@
       ]
     },
     {
-      "name": "AXN HD",
+      "name": "এএক্সএন",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/axn.png",
       "sources": [
@@ -1535,7 +1590,7 @@
       ]
     },
     {
-      "name": "B4U TV",
+      "name": "বিফোরইউ",
       "category": "Movies",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/b4u.png",
       "sources": [
@@ -1554,13 +1609,13 @@
       ]
     },
     {
-      "name": "Discovery",
+      "name": "ডিসকোভারি চ্যানেল",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/discovery.png",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/Discovery/index.m3u8"
+          "url": "http://103.165.93.31:8095/discovery/index.m3u8"
         },
         {
           "name": "S2",
@@ -1580,11 +1635,11 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/discovery_hd.m3u8"
+          "url": "http://172.16.200.205:8088/801/index.m3u8"
         },
         {
           "name": "S7",
-          "url": "https://s2.itcnbd.live/discovery-hd/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/3.m3u8"
         },
         {
           "name": "S8",
@@ -1593,7 +1648,7 @@
       ]
     },
     {
-      "name": "Nat Geo HD",
+      "name": "ন্যাশনাল জিওগ্রাফিক এইচডি",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/natgeo.png",
       "sources": [
@@ -1615,16 +1670,16 @@
         },
         {
           "name": "S5",
-          "url": "https://s2.itcnbd.live/natgeo-hd/index.m3u8"
+          "url": "http://103.165.93.31:8095/nationalGeographic/index.m3u8"
         },
         {
           "name": "S6",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/287.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/130.m3u8"
         }
       ]
     },
     {
-      "name": "Nat Geo Wild",
+      "name": "ন্যাশনাল জিওগ্রাফিক ওয়াইল্ড",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wild.png",
       "sources": [
@@ -1638,7 +1693,7 @@
         },
         {
           "name": "S3",
-          "url": "https://s2.itcnbd.live/natgeo-wild-hd/index.m3u8"
+          "url": "http://172.16.200.205:8088/802/index.m3u8"
         },
         {
           "name": "S4",
@@ -1647,7 +1702,7 @@
       ]
     },
     {
-      "name": "Animal Planet HD",
+      "name": "এনিম্যাল প্লেনেট এইচডি",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/animal.png",
       "sources": [
@@ -1673,7 +1728,7 @@
         },
         {
           "name": "S6",
-          "url": "https://server.itcnbd.live/stream/animal_planet_hd.m3u8"
+          "url": "http://103.165.93.31:8095/animalPlanet/index.m3u8"
         },
         {
           "name": "S7",
@@ -1690,7 +1745,7 @@
       ]
     },
     {
-      "name": "BBC Earth HD",
+      "name": "সনি বিবিসি আর্থ এইচডি",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bbcearth.png",
       "sources": [
@@ -1721,7 +1776,7 @@
       ]
     },
     {
-      "name": "TLC HD",
+      "name": "টিএলসি এইচডি",
       "category": "Documentary",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tlc.png",
       "sources": [
@@ -1748,13 +1803,14 @@
       ]
     },
     {
-      "name": "Nick",
+      "name": "নিকেলোডিয়ন",
       "category": "Kids",
+      "epgId": "25",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/nick.png",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.20.3.1:3255/NICK/index.m3u8"
+          "url": "http://172.19.17.34:80/live/ontest1/ontest1/102.ts"
         },
         {
           "name": "S2",
@@ -1762,16 +1818,24 @@
         },
         {
           "name": "S3",
-          "url": "https://s2.itcnbd.live/nick/index.m3u8"
+          "url": "http://172.21.20.223:8080/NICK/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://103.165.93.31:8095/nick/index.m3u8"
+        },
+        {
+          "name": "S3",
+          "url": "http://172.20.5.1:8080/1234567/7654321/134.m3u8"
         },
         {
           "name": "S4",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/298.m3u8"
+          "url": "http://172.16.200.205:8088/601/index.m3u8"
         }
       ]
     },
     {
-      "name": "Cartoon Network",
+      "name": "কার্টুন নেটওয়ার্ক",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cn.png",
       "sources": [
@@ -1810,7 +1874,7 @@
       ]
     },
     {
-      "name": "Pogo",
+      "name": "পোগো",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/pogo.png",
       "sources": [
@@ -1828,7 +1892,7 @@
         },
         {
           "name": "S4",
-          "url": "https://server.itcnbd.live/stream/pogo_sd.m3u8"
+          "url": "http://103.165.93.31:8095/pogo/index.m3u8"
         },
         {
           "name": "S5",
@@ -1841,7 +1905,7 @@
       ]
     },
     {
-      "name": "Discovery Kids",
+      "name": "ডিসকোভারি কিডস্",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dkids.png",
       "sources": [
@@ -1868,7 +1932,7 @@
       ]
     },
     {
-      "name": "Sony Yay",
+      "name": "সনি ইয়েহ!",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/yay.png",
       "sources": [
@@ -1882,7 +1946,7 @@
         },
         {
           "name": "S3",
-          "url": "https://server.itcnbd.live/stream/sonyyay.m3u8"
+          "url": "http://103.165.93.31:8095/sonyYay/index.m3u8"
         },
         {
           "name": "S4",
@@ -1891,29 +1955,29 @@
       ]
     },
     {
-      "name": "Motu Patlu",
+      "name": "মোটু পাতলু",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/motu.png",
       "sources": [
         {
           "name": "S1",
-          "url": "https://tplay.live/playlist/kids/motu-patlu/index.m3u8"
+          "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8"
         }
       ]
     },
     {
-      "name": "Gopal Bhar",
+      "name": "গোপাল ভাঁড়",
       "category": "Kids",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gopal.png",
       "sources": [
         {
           "name": "S1",
-          "url": "https://tplay.live/playlist/kids/gopal-bhar/index.m3u8"
+          "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8"
         }
       ]
     },
     {
-      "name": "9XM",
+      "name": "নাইন এক্স এম",
       "category": "Music",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/9xm.png",
       "sources": [
@@ -1944,7 +2008,7 @@
       ]
     },
     {
-      "name": "Sangeet Bangla",
+      "name": "সঙ্গীত বাংলা",
       "category": "Music",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sangeet.png",
       "sources": [
@@ -1966,12 +2030,12 @@
         },
         {
           "name": "S5",
-          "url": "https://funtime.itcnbd.live/7654321/1234567/317.m3u8"
+          "url": "http://172.16.200.205:8088/702/index.m3u8"
         }
       ]
     },
     {
-      "name": "Gaan Bangla",
+      "name": "গান বাংলা",
       "category": "Music",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gb.png",
       "sources": [
@@ -1986,7 +2050,7 @@
       ]
     },
     {
-      "name": "B4U Music",
+      "name": "বি ফোর ইউ মিউজিক",
       "category": "Music",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/b4umusic.png",
       "sources": [
@@ -2005,7 +2069,7 @@
       ]
     },
     {
-      "name": "Al Jazeera",
+      "name": "আল জাজিরা",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/al.png",
       "sources": [
@@ -2036,7 +2100,7 @@
       ]
     },
     {
-      "name": "CNN",
+      "name": "সিএনএন",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/cnn.png",
       "sources": [
@@ -2059,7 +2123,7 @@
       ]
     },
     {
-      "name": "BBC World",
+      "name": "বিবিসি ওয়ার্ল্ড",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bbc.png",
       "sources": [
@@ -2086,7 +2150,7 @@
       ]
     },
     {
-      "name": "DW News HD",
+      "name": "ডয়েচে ভেলে ওয়ার্ল্ড এইচডি",
       "category": "News",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/dw.png",
       "sources": [
@@ -2101,7 +2165,7 @@
       ]
     },
     {
-      "name": "Hum TV",
+      "name": "হাম টিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/humtv.png",
       "sources": [
@@ -2148,6 +2212,14 @@
       "logo": "",
       "sources": [
         {
+          "name": "Akash Worker (MPD)",
+          "url": "https://tv2.workerbot4.workers.dev/live/143.mpd",
+          "type": "dash",
+          "headers": {
+            "x-akash-secret": "hady_web_secure_2026"
+          }
+        },
+        {
           "name": "S1",
           "url": "http://172.20.3.1:3255/MedinawithLive1MedinawithLive/index.m3u8"
         }
@@ -2177,25 +2249,25 @@
       ]
     },
     {
-      "name": "T Sports HD",
+      "name": "টি স্পোর্টস এইচডি",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tsports.png",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.19.17.3:8090/hls/tsportshd3rd.m3u8"
+          "url": "http://172.21.22.2:8080/TSports-1/index.m3u8"
         },
         {
           "name": "S2",
-          "url": "http://172.19.17.3:8090/hls/tsportshd.m3u8"
+          "url": "http://172.19.17.4:8090/hls/tsportshd.m3u8"
         },
         {
           "name": "S3",
-          "url": "http://172.19.17.3:8090/hls/tntsports1hd.m3u8"
+          "url": "http://172.19.17.139:8090/hls/tsportshd.m3u8"
         },
         {
           "name": "S4",
-          "url": "http://172.19.17.3:8090/hls/tsportshd.m3u8"
+          "url": "http://172.19.17.139:8090/hls/tntsports1hd.m3u8"
         },
         {
           "name": "S5",
@@ -2203,20 +2275,32 @@
         },
         {
           "name": "S6",
-          "url": "https://s2.itcnbd.live/t-sports/index.m3u8"
+          "url": "http://172.16.200.205:8088/102/index.m3u8"
         },
         {
           "name": "S7",
-          "url": "http://27.124.71.27/T-Sports/index.m3u8"
+          "url": "http://103.165.93.31:8095/tsports/video.m3u8"
         },
         {
           "name": "S8",
-          "url": "http://172.16.200.205:8088/102/tracks-v1a1/mono.m3u8"
+          "url": "http://103.165.93.31:8095/t-sports-hd4k/video.m3u8"
+        },
+        {
+          "name": "S9",
+          "url": "http://172.20.5.1:8080/1234567/7654321/36.m3u8"
+        },
+        {
+          "name": "S10",
+          "url": "http://172.20.5.1:8080/1234567/7654321/291.m3u8"
+        },
+        {
+          "name": "S11",
+          "url": "http://172.20.5.1:8080/1234567/7654321/298.m3u8"
         }
       ]
     },
     {
-      "name": "Gazi TV",
+      "name": "গাজি টিভি-জিটিভি",
       "category": "GEC",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gtv.png",
       "sources": [
@@ -2255,7 +2339,7 @@
       ]
     },
     {
-      "name": "Star Sports 1 HD",
+      "name": "স্টার স্পোর্টস এইচডি ওয়ান",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starsports.png",
       "sources": [
@@ -2290,7 +2374,7 @@
       ]
     },
     {
-      "name": "Star Sports 2",
+      "name": "স্টার স্পোর্টস এইচডি টু",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/starsports.png",
       "sources": [
@@ -2317,7 +2401,7 @@
       ]
     },
     {
-      "name": "Sony Ten 1",
+      "name": "সনি টেন ওয়ান",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
       "sources": [
@@ -2352,7 +2436,7 @@
       ]
     },
     {
-      "name": "Sony Ten 2",
+      "name": "সনি টেন টু",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
       "sources": [
@@ -2383,7 +2467,7 @@
       ]
     },
     {
-      "name": "Sony Ten 3",
+      "name": "সনি টেন থ্রি",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sonysports.png",
       "sources": [
@@ -2410,7 +2494,7 @@
       ]
     },
     {
-      "name": "PTV Sports",
+      "name": "পিটিভি স্পোর্টস",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ptv.png",
       "sources": [
@@ -2436,16 +2520,16 @@
         },
         {
           "name": "S6",
-          "url": "http://172.20.21.22:80/live/skyfeed1019/index.m3u8"
+          "url": "https://s2.itcnbd.live/ptv-sports-hd/index.m3u8"
         },
         {
           "name": "S7",
-          "url": "http://172.16.200.205:8088/128/tracks-v1a1/mono.m3u8"
+          "url": "https://funtime.itcnbd.live/7654321/1234567/264.m3u8"
         }
       ]
     },
     {
-      "name": "Bein Sports",
+      "name": "বেইন স্পোর্টস",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bein.png",
       "sources": [
@@ -2480,7 +2564,7 @@
       ]
     },
     {
-      "name": "A Sports HD",
+      "name": "এ স্পোর্টস এইচডি",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/a.png",
       "sources": [
@@ -2511,7 +2595,7 @@
       ]
     },
     {
-      "name": "Eurosport HD",
+      "name": "ইউরো স্পোর্টস এইচডি",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/euro.png",
       "sources": [
@@ -2538,7 +2622,7 @@
       ]
     },
     {
-      "name": "Sky Sports Cricket",
+      "name": "স্কাই স্পোর্টস ক্রিকেট",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/sky.png",
       "sources": [
@@ -2557,7 +2641,7 @@
       ]
     },
     {
-      "name": "TNT Sports 1",
+      "name": "টিএনটি স্পোর্টস ওয়ান",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/tnt.png",
       "sources": [
@@ -2580,7 +2664,7 @@
       ]
     },
     {
-      "name": "Live Cricket",
+      "name": "লাইভ ক্রিকেট",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/live.png",
       "sources": [
@@ -2595,13 +2679,13 @@
       ]
     },
     {
-      "name": "Live Football",
+      "name": "লাইভ ফুটবল",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/live.png",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.19.17.34:80/play/JmU-3pCgErAiWP5dU8MsAy9mrQAGyOTfgp9R9hpne8Q/m3u8"
+          "url": "http://103.89.248.130:8082/LIVE-FOOTBALL/index.m3u8"
         },
         {
           "name": "S2",
@@ -2614,7 +2698,7 @@
       ]
     },
     {
-      "name": "FIFA Plus",
+      "name": "ফিফা প্লাস",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/fifa.png",
       "sources": [
@@ -2633,18 +2717,18 @@
       ]
     },
     {
-      "name": "Ten Sports HD",
+      "name": "টেন স্পোর্টস এইচডি",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/ten.png",
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.19.17.34:80/play/JmU-3pCgErAiWP5dU8MsAy9mrQAGyOTfgp9R9hpne8Q/m3u8"
+          "url": "http://172.20.5.1:80/webplayer/webplayer/383.m3u8"
         }
       ]
     },
     {
-      "name": "Bein Sports 2",
+      "name": "বেইন স্পোর্টস টু",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/bein.png",
       "sources": [
@@ -2663,10 +2747,19 @@
       ]
     },
     {
-      "name": "FIFA WORLD CUP-2026",
+      "name": "ফিফা বিশ্বকাপ ২০২৬",
       "category": "Sports",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wc.png",
       "sources": [
+        {
+      "name": "S14",
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/mainfest.mpd",
+      "type": "dash",
+      "drm": {
+        "kid": "1df83e058b864da896c9288eef63b113",
+        "key": "fc32f26239054b56aab48225305598fe"
+      }
+        },
         {
           "name": "S1",
           "url": "http://103.89.248.130:8082/FIFA-World-Cup-Live-5/index.m3u8"
@@ -2702,8 +2795,9 @@
       ]
     },
     {
-      "name": "TravelXP HD",
+      "name": "ট্রাভেল এক্সপি এইচডি",
       "category": "Documentary",
+      "epgId": "542997",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/xp.png",
       "sources": [
         {
@@ -2716,7 +2810,7 @@
         },
         {
           "name": "S3",
-          "url": "https://s2.itcnbd.live/travel-xp/index.m3u8"
+          "url": "http://172.20.5.1:8080/1234567/7654321/347.m3u8"
         },
         {
           "name": "S4",
@@ -2725,17 +2819,18 @@
       ]
     },
     {
-      "name": "Unite8 HD",
+      "name": "ইউনাইটএইট স্পোর্টস এইচডি",
       "category": "Sports",
+      "epgId": "404001",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/u8.png",
       "sources": [
         {
           "name": "Zee Cafe",
-          "url": "http://172.19.17.3:8090/hls/ptvsportshd.m3u8"
+          "url": "http://172.19.17.34:80/live/ontest1/ontest1/32.m3u8"
         },
         {
           "name": "And Flix",
-          "url": "http://172.20.21.22:80/live/skyfeed1017/index.m3u8"
+          "url": "http://172.20.3.1:3255/AND-FLIX-HD/index.m3u8"
         },
         {
           "name": "And Flix 2",
@@ -2743,7 +2838,7 @@
         },
         {
           "name": "S4",
-          "url": "https://s2.itcnbd.live/and-flix-hd/index.m3u8"
+          "url": "http://172.21.22.2:8080/FIFA-4K-1/index.m3u8"
         },
         {
           "name": "S5",
@@ -2758,6 +2853,47 @@
           "url": "https://flv.intechmedia.net/live/ch113.m3u8"
         }
       ]
-    }
+    },
+    {
+      "name": "জি বাংলা",
+      "category": "GEC",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/gopal.png",
+      "sources": [
+        {
+          "name": "S1",
+          "url": "http://172.19.17.34:80/live/ontest1/ontest1/32.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "আকাশ স্পোর্টস ১",
+      "category": "Sports",
+      "logo": "https://example.com/logo/akash_sports.png",
+      "sources": [
+        {
+          "name": "S1 (Akash Widevine)",
+          "url": "https://tv2.workerbot4.workers.dev/live/143.mpd",
+          "type": "dash",
+          "licenseUrl": "https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=8f95c9cd-6940&ls_session=...",
+          "secretHeader": "hady_web_secure_2026"
+        }
+      ]
+    },
+    {
+    "name": "জি বাংলা DRM",
+      "category": "Sports",
+      "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/wc.png",
+      "sources": [
+   {
+      "name": "S14",
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/mainfest.mpd",
+      "type": "dash",
+      "drm": {
+        "kid": "1df83e058b864da896c9288eef63b113",
+        "key": "fc32f26239054b56aab48225305598fe"
+      }
+        }
+      ]
+    } 
   ]
 }
