@@ -1144,6 +1144,7 @@
     {
       "name": "সনি এন্টারটেইনমেন্ট টেলিভিশন",
       "category": "GEC",
+      "epgId": "543111",
       "logo": "https://raw.githubusercontent.com/durjoyrozario/hls/refs/heads/tv/logo/set.png",
       "sources": [
         {
