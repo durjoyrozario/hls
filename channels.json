@@ -2862,7 +2862,7 @@
       "sources": [
         {
           "name": "S1",
-          "url": "http://172.19.17.34:80/live/ontest1/ontest1/32.m3u8"
+          "url": "https://raw.githubusercontent.com/durjoyrozario/toffee-channel-tracker/refs/heads/main/zee-bangla.m3u8"
         }
       ]
     },
