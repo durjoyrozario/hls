@@ -2755,7 +2755,7 @@
       "sources": [
         {
           "name": "Zee Cafe",
-          "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8"
+          "url": "http://10.10.10.3:8090/TSports/tracks-v1a1/mono.m3u8"
         },
         {
           "name": "And Flix",
